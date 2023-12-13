@@ -1,0 +1,171 @@
+/* faculty css */
+
+.down-container {
+    background-color: #ffffff;
+}
+
+.heading {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    margin: auto;
+}
+
+section {
+    margin-top: 50px;
+}
+.card-img-top{
+    height: 200px;
+}
+.nontech{
+    margin-bottom: 20px;
+}
+.nontech1{
+    padding: 0 10%;
+}
+@media (max-width: 1410px) {
+    .nontech1{
+        padding: 0 5%;
+    }
+}
+
+.but1 {
+    border-radius: 0px;
+    border-width: 0px;
+    margin: 5px;
+}
+
+.marg1 {
+    margin-left: 5px;
+}
+
+.marg3 {
+    margin-bottom: 40px;
+}
+
+.marg4 {
+    margin-left: 80px;
+}
+
+.button1 {
+    height: 40px;
+    width: 120px;
+    border-width: 0px;
+    border-radius: 2px;
+    background-color: maroon;
+    padding: 3px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.img {
+    height: 205px;
+    width: 200px;
+    border-radius: 3px;
+    margin-left: 95px;
+}
+
+.revealhod {
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.activehod {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.contact{
+    margin-bottom: 0;
+}
+@media (max-width: 992px) {
+    .img {
+        margin-left: 0px;
+    }
+
+    .button1 {
+        margin-bottom: 5px;
+    }
+}
+
+
+
+.imgcontainer1 {
+    display: flex;
+    border-radius: 1em;
+    background-color: white;
+    max-width: 100%;
+    margin: 3% auto;
+    box-shadow: 0 0 20px -2px;
+}
+
+@media screen and (max-width: 900px) {
+
+
+    .imgcontainer1 {
+        flex-flow: column nowrap;
+    }
+}
+
+.sizing {
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.distyle1 {
+    background-color: #4A55A2;
+    color: white;
+    border-radius: 5px;
+}
+
+.distyle2 {
+    background-color: #7895CB;
+    color: white;
+    border-radius: 5px;
+}
+.distyle3 {
+    background-color: #82b1e4;
+    color: white;
+    border-radius: 5px;
+}
+.distyle4 {
+    background-color: #a1c2e2;
+    color: white;
+    border-radius: 5px;
+}
+.div1 {
+    display: none;
+}
+
+.div2 {
+    display: none;
+}
+
+.div3 {
+    display: none;
+}
+
+.div4 {
+    display: none;
+}
+
+.disdiv {
+    display: block;
+}
+
+hr {
+    width: 80%;
+    margin-left: 8.8%;
+}
+
+@media (max-width:1000px) {
+    hr {
+        width: 90%;
+        margin-left: 4.9%;
+    }
+}
+
+/* end */

@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://drive.google.com/uc?id=1GsAefpDf8XtvN7FZxdNfdgagr95K0JNH">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>SRKR-CSE</title>
+    <link rel="stylesheet" href="../assets/navbar.css">
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="./assets/Commitee.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a title="logo" class="navbar-brand" href="../index.html"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="../Faculty/faculty.html">Faculty</a></li>
+                    <li><a class="dropdown-item" href="../Ace/ace.html">Student Activities</a></li>
+                    <li><a class="dropdown-item" href="../Facilities/facilities.html">Facilities</a></li>
+                    <li><a class="dropdown-item" href="../Alumini/alumini.html">Alumini</a></li>
+                    <li><a class="dropdown-item" href="../Vision Mission/vismis.html">Vision & Mission</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Academic
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="../Syllabus/syllabus.html">Syllabus</a></li>
+                    <li><a class="dropdown-item" href="../Timetable/time-table.html">TimeTables</a></li>
+                    <li><a class="dropdown-item" href="../Regulations/regulations.html">Regulations</a></li>
+                    <li><a class="dropdown-item" href="../Calender/calender.html">Academic Calender</a></li>
+                    <li><a class="dropdown-item" href="http://www.srkrexams.in/Login.aspx">Results</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Administration
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item navlink" href="../Commitee/commiteebos.html">Committe & <br>Board of Studies</a></li>
+                    <li><a class="dropdown-item navlink" href="../Govt/governingbody.html">Governing Body</a></li>
+                    <li><a class="dropdown-item navlink" href="../Mous/Mous.html">MOUS</a></li>
+                    <li><a class="dropdown-item navlink" href="../Intake and Fee/intake&fee.html">Intake and Fee</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Accomplishments
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item navlink" href="../Achievements/achievements.html">Achivements</a></li>
+                    <li><a class="dropdown-item navlink" href="../Placements/placement.html">Placements</a></li>
+                    <li><a class="dropdown-item navlink" href="../Publications/publications.html">Publications</a></li>
+                    <li><a class="dropdown-item navlink" href="../Research/research.html">Research</a></li>
+                    <li><a class="dropdown-item navlink" href="../CSE Press/csepress.html">CSE @ Press</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+            <section>
+              <div class="container-fluid header-image">
+                <h1 class="header-name text-center">Board of Studies Members(BoS)</h1>
+              </div>
+                <!-- <h2 class="headline">Board of Studies Members(BoS)</h2> -->
+                    <div class="table-responsive">
+                        <table class="table table-hover course-list-table tablesorter">
+                        <thead>
+                            <tr>
+                                <th>S.No</th>
+                                <th>CATEGORY</th>
+                                <th>NAME</th>
+                                <th>POSITION</th>
+                                <th>PHONE NO.</th>
+                                <th>EMAIL ID</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                          <th>1</th><th>  CHAIRMAN</th><th> Dr.V Chandra Sekhar Professor</th> <th>Head Department of CSE SRKR Engineering College</th><th> 9440351652</th><th> dr.vcs@srkrec.ac.in</th>
+                         
+
+                        </tr>
+
+                        <tr>
+                            <th>2</th>
+                            <th>JNTUK NOMINEE</th>
+                            <th>Dr.Dasari Haritha</th>
+                            <th>Professor & Head Department of CSE JNTUK, Kakinada</th>
+                            <th>9440810901  </th>
+                            <th>harithadasari9@yahoo.com
+                            </th>
+
+                        </tr>
+
+                        <tr>
+                          <th>3</th> <th> EXPERTS FROM OTHER UNIVERSITIES</th><th>  Dr.S Viswanadha Raju  </th><th>Professor & Vice - Principal, JNTUH, Jagitial</th><th> 9963701506  </th> <th>svraju.jntu@gmail.com</th>
+
+                        </tr>
+
+                        <tr>
+                           
+                          <th>4</th> <th>EXPERTS FROM OTHER UNIVERSITIES</th> <th>  Dr.Kunjam Nageswara Rao</th> <th> Professor & Head Department of CS&SE AU College of Engineering (A) Visakhapatnam</th><th> 9440114703</th><th> kunjamnag@gmail.com</th>
+                        </tr>
+
+                        <tr>
+                          <th>5</th><th>  INDUSTRY EXPERT</th><th>  Sri. P C VARMA  </th> <th>Senior Manager Engineering Ops Ramp India Pvt.Ltd., Hyderabad</th><th>  8019016669</th><th> pcvvarma@opsramp.com</th>
+
+                        </tr>
+                        <tr>
+                          <th>6</th>  <th>  FACULTY OF EACH SPECIALIZATION</th><th>Dr. K Rama Prasada Raju</th> <th>  Professor ,Department of CSE ,SRKR Engineering College.</th><th>  9440933499</th><th> ramaprasad.kalidindi@gmail.com</th>
+
+                        </tr>
+                        <tr>
+                          <th>7 </th> <th>FACULTY OF EACH SPECIALIZATION</th> <th>  Dr . G.Mahesh</th> <th> Professor ,Department of CSE ,SRKR Engineering College.</th> <th> 9493671967</th> <th>  mahesh.cse.srkr@gmail.com</th>
+
+                        </tr>
+                        <tr>
+                          <th>8 </th> <th>FACULTY OF EACH SPECIALIZATION</th> <th>  Dr.K V Krishnam Raju</th> <th>  Professor ,Department of CSE ,SRKR Engineering College.</th><th>  9948771117</th> <th>  kvkraju.srkr@gmail.com</th>
+
+                        </tr>
+                        <tr>
+                          <th>9</th> <th>  FACULTY OF EACH SPECIALIZATION</th> <th>  Dr. N K Kameswara Rao </th> <th>Associate Professor ,Department of CSE ,SRKR Engineering College.</th> <th> 9866571555</th> <th>  nkkamesh@gmail.com</th>
+                        </tr>
+                        <tr>
+                         <th>10</th> <th>  FACULTY OF EACH SPECIALIZATION  </th> <th>Dr.R N V Jagan Mohan</th> <th>  Associate Professor ,Department of CSE ,SRKR Engineering College.</th> <th> 9491913637</th> <th>  mohanrnvj@gmail.com</th>
+                        </tr>
+                        <tr>
+                         <th>11</th> <th>  FACULTY OF EACH SPECIALIZATION  </th> <th>Dr. G N V G Sirisha</th> <th> Associate Professor ,Department of CSE ,SRKR Engineering College. </th> <th>9494491083</th> <th>  sirishagadiraju@gmail.com</th>
+                        </tr>
+<tr>
+  <th>12</th> <th>  FACULTY OF EACH SPECIALIZATION</th> <th>  Dr.Ch Someswara Rao</th> <th> Associate Professor ,Department of CSE ,SRKR Engineering College.</th> <th> 9440870890  </th> <th>chinta.someswararao@gmail.com</th>
+</tr>
+<tr>
+  <th>13</th> <th>  FACULTY OF EACH SPECIALIZATION</th> <th>  Dr.V M N S S V K R Gupta</th> <th>  Assistant Professor ,Department of CSE ,SRKR Engineering College.</th> <th> 9948004115  </th> <th>guptavkrao@gmail.com</th>
+</tr>
+<tr>
+  <th>14</th> <th>  FACULTY OF EACH SPECIALIZATION</th> <th>  Dr.P Bharat Siva Varma</th> <th>  Assistant Professor ,Department of CSE ,SRKR Engineering College.</th> <th>9949666789 </th> <th>pbsvarma@gmail.com</th>
+</tr>
+<tr>
+  <th>15</th> <th>  FACULTY OF EACH SPECIALIZATION</th> <th>  Dr. M Srihari Varma</th> <th> Assistant Professor ,Department of CSE ,SRKR Engineering College.</th> <th>9985588488</th> <th>vasista4u@gmail.com</th>
+</tr>
+<tr>
+  <th>16</th><th>Student Representatives</th><th> Miss G Mounika</th><th> 3/4 CSE , Student</th> <th> 8688457409</th> <th>  mounika.6388@gmail.com</th>
+</tr>
+<tr>
+  <th>17</th> <th>  Student Representatives</th> <th> Sri Ch. Dinakar</th> <th> 3/4 CSE , Student</th> <th> 9553451750</th> <th>chinimillidinakar@gmail.com</th>
+</tr>
+
+                    </tbody>
+                </table>
+            </div>
+            </section>
+            <section>
+                <div class="placements">
+                    <div class="container">
+                        <div>
+                            <h4>BoS Minutes Data</h4>
+                        </div>
+                        <div class="table-responsive table-container1">
+                            <table class="tables">
+                                <thead class="head">
+                                    <tr>
+                                        <th>SNO</th>
+                                        <th>ACADEMIC YEAR</th>
+                                        <th>DOCUMET</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="intable">
+                                    <tr>
+                                        <th>1</th>
+                                        <th>2016-2017</th>
+                                        <th><a href="https://srkrec.edu.in/files/CSE/CSE_BOS_MINTUES_2016_2017.pdf"
+                                                target='_new'>View Document</a>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>2</th>
+                                        <th>2017-2018</th>
+                                        <th><a href="https://srkrec.edu.in/files/CSE/CSE_BOS_MINTUES_2017_2018.pdf"
+                                                target='_new'>View Document</a>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>3</th>
+                                        <th>2018-2019</th>
+                                        <th><a href="https://srkrec.edu.in/files/CSE/CSE_BOS_MINTUES_2018_2019.pdf"
+                                                target='_new'>View Document</a>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                      <th>4</th>
+                                      <th>2019-2020</th>
+                                      <th><a href="https://srkrec.edu.in/files/CSE/CSE_BOS_MEETINGS_2019-2020.pdf"
+                                              target='_new'>View Document</a>
+                                      </th>
+                                  </tr>
+                                  <tr>
+                                    <th>5</th>
+                                    <th>2020-2021</th>
+                                    <th><a href="https://srkrec.edu.in/files/CSE/CSE_BOS_MEETINGS_2020-2021.pdf"
+                                            target='_new'>View Document</a>
+                                    </th>
+                                </tr>
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section><br>
+            <section>
+                <h2 class="headline">Department Advisory Committee(DAC)</h2>
+                    <div class="table-responsive">
+                        <table class="table table-hover course-list-table tablesorter">
+                        <thead>
+                          <thead>
+                            <tr>
+                                <th>S.No</th>
+                                <th>NAME</th>
+                                <th>DESIGNATION</th>
+                                <th>POSITION</th>
+                                <th>MAIL ID</th>
+
+                        </thead>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th>1</th><th>  Dr. V Chandra Sekhar</th><th> Professor & HOD</th><th>  Chairman</th> <th>  dr.vcs@srkrec.ac.in</th>
+                          </tr>
+                        <tr>
+                         <th> 2</th><th>  Dr. G.Mahesh</th><th> Professor</th><th>  Member</th><th> mahesh.cse.srkr@gmail.com</th>
+
+                        </tr>
+
+                        <tr>
+                          <th>3</th><th>  Dr. A Bala Krishna  </th> <th>Professor</th><th>  Member</th><th> Prof.adavi@gmail.com</th>
+
+                        </tr>
+
+                        <tr>
+                         <th> 4</th> <th> Dr. D J Nagendra Kumar, HOD, Dept. of IT,VIT.</th> <th> Expert from Outside Institute Member</th><th> Nagendrakumar</th> <th>dj@vishnu.edu.in</th>
+
+                        </tr>
+
+                        <tr>
+                          <th>5</th> <th> S.N.Ramesh Krishna</th> <th>  Alumni  </th><th>Member</th> <th> --</th>
+
+                        </tr>
+
+                        <tr>
+                          <th>6</th> <th> Dr.N.K.Kameswara Rao</th> <th>  Parent</th> <th>Member</th> <th>  nkkamesh@gmail.com</th>
+
+                        </tr>
+                        <tr>
+                          <th>7</th> <th> Dr.G V Padma Raju, Opsramp.</th> <th> Industry Person <th>Member</th> <th>  gvpadmaraju@gmail.com</th>
+
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            </section>
+            <section>
+              <h2 class="headline">Program Assesment and Quality Improvement Committee(PAQIC)</h2>
+                  <div class="table-responsive">
+                      <table class="table table-hover course-list-table tablesorter">
+                      <thead>
+                          <tr>
+                            <thead>
+                              <tr>
+                                  <th>S.No</th>
+                                  
+                                  <th>NAME</th>
+                                  <th>POSITION</th>
+                                  <th>PHONE NO.</th>
+                                  <th>EMAIL ID</th>
+                              </tr>
+                          </thead>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th>1</th><th>  Dr. V Chandra Sekhar</th><th> Professor & HOD</th><th>  Chairman</th> <th>  dr.vcs@srkrec.ac.in</th>
+                        </tr>
+                      <tr>
+                       <th> 2</th><th>  Dr. G.Mahesh</th><th> Professor</th><th>  Coordinator</th><th>  mahesh.cse.srkr@gmail.com</th>
+
+                      </tr>
+
+                      <tr>
+                        <th>3</th><th>  Dr.K.Suresh Babu  </th> <th>Professor from other department</th><th>  Member</th><th> --</th>
+
+                      </tr>
+
+                      <tr>
+                       <th> 4</th> <th> Dr. K V Krishnam Raju.</th> <th>  Associate Professor</th><th>  Member</th><th>kvkraju.srkr@gmail.com</th>
+
+                      </tr>
+
+                      <tr>
+                        <th>5</th> <th> Dr. N K Kameswara Rao</th> <th>Associate Professor</th> <th>  Member</th><th>nkkamesh@gmail.com</th>
+
+                      </tr>
+
+                     
+
+                  </tbody>
+              </table>
+          </div>
+          </section>
+          <section>
+            <h2 class="headline">Department Academic Commitee</h2>
+                <div class="table-responsive">
+                    <table class="table table-hover course-list-table tablesorter">
+                    <thead>
+                        <tr>
+                          <thead>
+                            <tr>
+                                <th>S.No</th>
+                                
+                                <th>NAME</th>
+                                <th>POSITION</th>
+                                <th>POSITION</th>
+                                <th>EMAIL ID</th>
+                            </tr>
+                        </thead>
+                    </thead>
+                    <tbody>
+                     <TR>
+                      <th>1</th>  <th>Dr. G Mahesh  </th> <th>Professor</th> <th> Coordinator</th> <th> mahesh.cse.srkr@gmail.com</th>
+                     </TR>
+                     <tr>
+                      <th>2 </th> <th>Dr. K Aruna Kumari</th> <th>  Assistant Professor</th>  <th>Member</th> <th>  aruna.satti@gmail.com</th>
+                     </tr>
+                     <tr>
+                      <th>3</th> <th> Sri. T V K P Prasad</th> <th> Assistant Professor </th> <th>Member</th> <th>  tvkpprasad@gmail.com</th>
+                     </tr>
+                     <tr>
+                      <th>4</th> <th> Smt. A L Lavanya</th> <th>  Assistant Professor</th> <th> Member</th> <th>  allurilavanya111@gmail.com</th>
+                     </tr>
+                     <tr>
+                     <th> 5</th> <th> Dr. M Srihari Varma</th> <th> Assistant Professor</th> <th> Member</th> <th>  vasista4u@gmail.com</th>
+                     </tr>
+                     <tr>
+                     <th>6</th> <th>  Sri. L V Srinivas </th> <th>Assistant Professor</th> <th> Member</th> <th>  srinivas.srkrcse@gmail.com</th>
+                   </tr>
+                   <tr>
+                    <th>7 </th> <th>Smt. P Saroja </th> <th>Assistant Professor</th> <th> Member</th> <Th>  pathapati.saroja@gmail.com</Th>
+                   </tr>
+                   <tr>
+                    <th>8</th> <th> Smt. D N S B Kavitha  </th> <th>Assistant Professor</th> <th> Member</th> <th>  kavitha.dnsb@srkrec.edu.in</th>
+                   </tr>
+
+                </tbody>
+            </table>
+        </div>
+        </section>
+        <section>
+          <h2 class="headline">Department Examination Committee</h2>
+              <div class="table-responsive">
+                  <table class="table table-hover course-list-table tablesorter">
+                  <thead>
+                      <tr>
+                        <thead>
+                          <tr>
+                              <th>S.No</th>
+                              
+                              <th>NAME</th>
+                              <th>DESIGNATION</th>
+                              <th>POSITION</th>
+                              <th>EMAIL ID</th>
+                          </tr>
+                      </thead>
+                  </thead>
+                  <tbody>
+                   <TR>
+                    <th>1</th> <th> Sri. K V S S R Murthy</th> <th> Assistant Professor</th> <th> Coordinator<th> kvssrmurthy75@gmail.com</th>
+                   </TR>
+                   <tr>
+                    <th>2</th><th>Smt. V Priyadarshini</th><th>Assistant Professor</th><th>Member</th><th>priyavoosala@gmail.com</th>
+                   </tr>
+                   <tr>
+                    <th>
+                      3
+                    </th>
+                    <th>Sri. J Rajanikanth</th> <th>  Assistant Professor</th> <th> Member</th> <th>  rajanikanth.1984@gmail.com</th>
+                   </tr>
+                   <tr>
+                    <th>4 </th> <th>Sri. S Suryanarayana Raju</th> <th> Assistant Professor</th> <th>Member</th> <th> ssnraju@srkrec.ac.in</th>
+                   </tr>
+                   <tr>
+                    <th>5</th> <th> Sri. Ch Raminaidu </th> <th>Assistant Professor</th> <th> Member</th> <th>raminaidu.chitri@gmail.com</th>
+                   </tr>
+              </tbody>
+          </table>
+      </div>
+      </section>
+      <section>
+        <h2 class="headline">Department Women Empowerment Cell / Grievence Cell for Women</h2>
+            <div class="table-responsive">
+                <table class="table table-hover course-list-table tablesorter">
+                <thead>
+                    <tr>
+                      <thead>
+                        <tr>
+                            <th>S.No</th>
+                            
+                            <th>NAME</th>
+                            <th>DESIGNATION</th>
+                            <th>POSITION</th>
+                            <th>EMAIL ID</th>
+                        </tr>
+                    </thead>
+                </thead>
+                <tbody>
+                <tr> <th>  1</th><th> Smt. D Hemalatha</th> <th>  Assistant Professor</th> <th> Coordinator</th><th>  hema.dendukuri@gmail.com@gmail.com</th></tr>
+                 <tr><th> 2</th> <th> Smt. P Neelima  </th> <th>Assistant Professor</th><th>Member</th> <th>  neelima.p47@gmail.com</th></tr>
+                  <tr><th>3</th> <th> Miss. M Janaki Devi</th><th>  Assistant Professor </th> <th>Member</th> <th>  janakidevimaddala9@gmail.com</th></tr>
+                  <tr><th>4</th><th>  Smt. P Jahnavi</th> <th>  Assistant Professor </th> <th>Member</th> <th>  jahnavi.penmatsa@gmail.com</th></tr>
+            </tbody>
+        </table>
+    </div>
+    </section>
+    <section>
+      <h2 class="headline">Department Training & Placement Committee</h2>
+          <div class="table-responsive">
+              <table class="table table-hover course-list-table tablesorter">
+              <thead>
+                  <tr>
+                    <thead>
+                      <tr>
+                          <th>S.No</th>
+                          
+                          <th>NAME</th>
+                          <th>DESIGNATION</th>
+                          <th>POSITION</th>
+                          <th>EMAIL ID</th>
+                      </tr>
+                  </thead>
+              </thead>
+              <tbody>
+                <tr><th>1</th> <th> Sri. T Srinivasa Rao</th> <th>Assistant Professor</th> <th> Coordinator </th> <th>tsrao@srkrec.ac.in</th>
+                <tr><th>2 </th> <th>Sri. Ch Vinod Varma </th> <th>Assistant Professor </th> <th>Member</th><th> vinodvarmaaa@gmail.com</th></tr>
+               <tr><th> 3 </th> <th>Sri. Ch Raghuram</th> <th>  Assistant Professor</th> <th> Member</th> <th>  chrr@srkrec.ac.in</th></tr>
+          </tbody>
+      </table>
+  </div>
+  </section>
+  <section>
+    <h2 class="headline">Department Disciplinary  Committee</h2>
+        <div class="table-responsive">
+            <table class="table table-hover course-list-table tablesorter">
+            <thead>
+                <tr>
+                  <thead>
+                    <tr>
+                        <th>S.No</th>
+                        
+                        <th>NAME</th>
+                        <th>DESIGNATION</th>
+                        <th>POSITION</th>
+                        <th>EMAIL ID</th>
+                    </tr>
+                </thead>
+            </thead>
+            <tbody>
+              <tr><th>1</th> <th> Sri. J Rajanikanth</th> <th>  Assistant Professor </th> <th>Coordinator</th>  <th>rajanikanth.1984@gmail.com</th></tr>
+             <tr><th> 2</th> <th> Smt. M Jeevana Sujitha</th><th> Assistant Professor</th> <th> Coordinator</th><th>  jeevanasujitha@gmail.com</th></tr>
+              <tr><th>3</th> <th> Sri. V V Siva Rama Raju</th> <th> Assistant Professor </th> <th>Coordinator </th> <th>sivaramaraju.vetukuri@gmail.com</th></tr>
+              <tr><th>4</th> <th> Smt. J Raghaveni</th><th> Assistant Professor</th><th>  Coordinator</th><th>  hariveni9.srkr@gmail.com</th></tr>
+              <tr><th>5</th> <th> Sri. S Suresh Kumar</th> <th> Assistant Professor</th><th>  Coordinator </th> <th>samarlasureshkumar@gmail.com</th></tr>
+              <tr><th>6</th>  <th>Smt. R Leela Jyothi</th><th>Assistant Professor </th> <th>Coordinator </th><th>rudraraju.leela92@gmail.com</th>
+        </tbody>
+    </table>
+</div>
+</section>
+<section>
+  <h2 class="headline">Department NAAC Coordinators</h2>
+      <div class="table-responsive">
+          <table class="table table-hover course-list-table tablesorter">
+          <thead>
+              <tr>
+                <thead>
+                  <tr>
+                      <th>S.No</th>
+                      
+                      <th>NAME</th>
+                      <th>DESIGNATION</th>
+                      <th>POSITION</th>
+                      <th>EMAIL ID</th>
+                  </tr>
+              </thead>
+          </thead>
+          <tbody>
+            <tr><th>1</th><th>  Sri. R Shiva Shankar</th><th> Assistant Professor </th> <th>Coordinator</th><th>shiva.srkr@gmail.com</th></tr>
+            <tr><th>2</th> <th> Sri. L V Srinivas</th><th>  Assistant Professor </th><th>Coordinator</th><th> srinivas.srkrcse@gmail.com</th></tr>
+      </tbody>
+  </table>
+</div>
+</section>
+  <!--/footer-->
+<!--/footer-->
+<footer class="w3l-footer-22 ">
+  <div class="footer-sub py-5">
+    <div class="container1 ">
+      <div class="row sub-columns">
+        <div class="col-lg-4 col-md-6 sub-one-left ab-right-cont pr-lg-5 mb-md-0 mb-4">
+          <h3>About</h3>
+          <p>Sagi Rama Krishnam Raju Engineering College (SRKREC), established in 1980, is a self-financed academic institution of coeducation striving to provide a high quality technical education to engineering aspirants. Being one of the premier and well-established technical institutions of the country, it continues to render service to the nation and the world at large with its alumni holding highly prestigious positions and making substantial contribution.</p>
+          <div class="columns-2">
+            <ul class="social">
+              <li><a href="https://www.facebook.com/people/SRKR-CSE/61551537740203/" id="facebook"><span class="fab fa-facebook-f" aria-hidden="true"></span></a></li>
+              <!-- <li><a href="#linkedin"><span class="fab fa-linkedin-in" aria-hidden="true"></span></a></li> -->
+              <li><a href="https://www.instagram.com/srkr_cse/" id="instagram"><span class="fab fab fa-instagram" aria-hidden="true"></span></a></li>
+              <li><a href="https://www.youtube.com/@srkrcse212/" id="youtube"><span class="fab fab fa-youtube" aria-hidden="true"></span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 sub-two-right pl-lg-5">
+          <h3>Useful Links</h3>
+          <ul>
+            <li><a href="../index.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Home</a></li>
+            <!-- <li><a href="about.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;About</a></li> -->
+            <li><a href="../Placements/placement.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Placements</a></li>
+            <li><a href="../Govt/governingbody.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Governing Body</a></li>
+            <li><a href="../Contact/contact.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 sub-two-right pl-lg-5 mt-md-0 mt-4">
+          <h3>Academics</h3>
+          <ul>
+            <li><a href="../Syllabus/syllabus.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Syllabus</a></li>
+            <li><a href="../Timetable/time-table.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Timetables</a></li>
+            <li><a href="../Regulations/regulations.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Regulations</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 sub-two-right mt-md-0 mt-4">
+          <aside>
+            <h4>Contact Us</h4>
+<address>
+  <strong>Computer Science And Engineering</strong>
+  <br>
+  <span>(Since 1991)</span>
+  <br><br>
+  <span>Dr. V. Chandra Sekhar </span>
+  <br>
+  <span>Head of the department</span>
+  <br>
+  <!-- <abbr title="Telephone">Telephone:</abbr> +91 9440351652
+  <br> -->
+<span title="Telephone">Mobile:</span> +91 9440351652<br>
+  <span title="Email">Email:</span> <a href="#">dr.vcs@srkrec.ac.in</a>
+</address>
+</aside>
+        </div>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <a href="../Team/team.html"><p >WebDevelopment Team</p></a>
+          </div>
+        </div>
+      </div>
+      
+      <p>© 2023 SRKREC-CSE. All rights reserved. Design by <a href="https://srkrec.edu.in/" target="_blank">SRKREC</a></p>
+    </div>
+  </div>
+</footer>
+              
+            <!-- //footer -->
+              <script src="script.js"></script>
+          </body>
+          </html>

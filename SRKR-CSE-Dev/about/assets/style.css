@@ -1,0 +1,444 @@
+body {
+    background: #eee
+}
+
+.news {
+    width: 160px
+}
+
+.news-scroll a {
+    text-decoration: none
+}
+
+.dot {
+    height: 6px;
+    width: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 2px !important;
+    background-color: rgb(207, 23, 23);
+    border-radius: 50%;
+    display: inline-block
+}
+
+.para {
+    display: none;
+}
+
+/* Hod sir container */
+.imgcontainer {
+    display: flex;
+    border-radius: 1em;
+    background-color: white;
+    max-width: 80%;
+    margin: 7% auto 10% auto;
+    box-shadow: 0 0 20px -2px;
+}
+
+.imgcontainer__half-image {
+    flex: 1;
+    background-image: url("./images/hod.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5em;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+.imgcontainer__half-content {
+    padding: 5em;
+    flex: 1;
+}
+
+.item-type {
+    color: #767676;
+    text-transform: uppercase;
+    font: 1rem serif;
+    margin-top: 0;
+}
+
+.item-title {
+    color: #13294b;
+    font: bold 1.75rem/1.1 serif;
+    margin: 0.625em 0;
+}
+
+.item-description {
+    font: 1rem/1.4 serif;
+}
+
+.detail {
+    font-size: 1rem !important;
+    color: #b61500 !important;
+}
+
+@media screen and (max-width: 900px) {
+
+    .imgcontainer {
+        flex-flow: column nowrap;
+        max-width: 90%;
+    }
+
+    .imgcontainer__half-image {
+        border-top-right-radius: 1em;
+        border-bottom-left-radius: 0;
+        min-height: 300px;
+    }
+
+    .imgcontainer__half-content {
+        padding: 1em;
+    }
+}
+
+.aboutbtn {
+    width: 25%;
+}
+
+.vismis {
+    padding: 0 10%;
+}
+
+/* Hod sir container end */
+.matter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.matter i {
+    font-size: 40px;
+    padding: 5px;
+    color: maroon;
+}
+
+.user,
+.system,
+.book {
+    flex: 1 0 100%;
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+
+    .user,
+    .system {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 900px) {
+
+    .user,
+    .system,
+    .book {
+        flex-basis: 33.33%;
+        max-width: 33.33%;
+    }
+}
+
+.certificates {
+    margin-bottom: 30px;
+
+}
+
+.certificates>* {
+    width: 120px !important;
+    margin: 10px;
+}
+
+/* college description ends*/
+
+/* Adjustments for responsiveness */
+
+@media (max-width: 767px) {
+    .title-w3l {
+        font-size: 24px;
+    }
+
+    .column.col-sm-6 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .title-w3l {
+        font-size: 30px;
+    }
+}
+
+/* Additional styling */
+
+.midd-w3 {
+    background-color: #f5f5f5;
+}
+
+.title-subw3hny {
+    font-size: 36px;
+    font-weight: 500;
+    color: #333;
+
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e2e2e2;
+    background-image: linear-gradient(135deg, #FD6585 10%, #0D25B9 100%);
+}
+
+.title-w3l {
+    font-size: 36px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 20px;
+}
+
+#container1 {
+    padding-top: 0px !important;
+}
+
+#container2 {
+    padding-top: 0px !important;
+}
+
+.inn-text {
+    color: #007bff;
+}
+
+.btn-style {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.radius-image {
+    border-radius: 6px;
+}
+
+.edu-heading-title a {
+    color: #333;
+    text-decoration: none;
+}
+
+.edu-heading-title a:hover {
+    color: #007bff;
+}
+
+.column-w3-img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in .3s;
+}
+
+.column-w3-img:hover {
+    z-index: 2;
+    transform: scale(1.05);
+}
+
+.mt-md-4 {
+    margin-bottom: 2rem !important;
+}
+
+.edu-info {
+    position: absolute;
+    bottom: 5%;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: #fff;
+}
+
+/* Adjustments for responsiveness */
+
+@media (max-width: 767px) {
+    .sub-columns {
+        flex-wrap: wrap;
+    }
+
+    .sub-columns .col-md-6,
+    .sub-columns .col-lg-3 {
+        margin-bottom: 30px;
+    }
+}
+
+/* course section ends */
+
+.bg-card-containery {
+
+    height: 450px;
+}
+
+.bg-containery {
+    margin-top: 20px;
+}
+
+.alumini {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.imagey {
+    width: 100%;
+    height: 300px;
+}
+
+@media screen and (max-width:500px) {
+    .imagey {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+.counter-numbers {
+    font-size: 32px;
+    color: maroon;
+
+}
+
+.slide1 img {
+    height: 300px;
+}
+
+.slide1 p {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.header-name {
+    letter-spacing: 3px;
+    color: azure;
+}
+
+.header-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(http://srkrec.edu.in/img/cse/8.jpg);
+    background-position: top;
+    width: 100%;
+    height: 65vh;
+    background-size: cover;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 3vh;
+}
+
+.research-container {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease;
+}
+
+.research-active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.research-content {
+    padding: 10px 0 5px 10px;
+}
+
+.table-heading {
+    border-bottom: 1px solid #A8A196;
+    padding: 10px 5px 3px 5px;
+}
+
+.list-container {
+    padding-left: 25px;
+}
+
+.list-element {
+    padding-bottom: 6px;
+}
+
+.overflow-auto.table {
+    display: none;
+
+}
+
+.table-display {
+    display: table;
+    animation: animename 0.4s linear;
+}
+
+.table-container {
+    padding: 5px;
+    background-color: #e2e2e2;
+    display: none;
+}
+
+.table-container::-webkit-scrollbar {
+    display: none;
+}
+
+@keyframes animename {
+    0% {
+        opacity: 0
+    }
+
+    ;
+
+    50% {
+        opacity: 0.5
+    }
+
+    ;
+
+    100% {
+        opacity: 1
+    }
+
+    ;
+}
+
+.year {
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    border: 1px dashed black;
+    text-align: center;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.year-focused {
+    background-color: black;
+    color: white;
+}
+
+.year:hover {
+    color: white;
+    background-color: black;
+    transition: 0.2s;
+
+}
+
+.year-heading {
+    display: none;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 5px 0 5px 20px;
+    border-radius: 0%;
+}
+
+.kd::-webkit-scrollbar {
+    display: none;
+}
+
+.sno {
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+/* syllabus css */
+.height {
+  height: 100vh;
+  margin-top: 100px;
+}
+
+/* Adjust styles for the form-select elements */
+.container select {
+  margin: 10px;
+}
+
+/* Style the pdf container */
+#pdf-container {
+  margin-top: 20px;
+  height: 100vh;
+}
+
+/* Set the width and height for the embedded PDF */
+#pdf-embed {
+
+  width: 100%;
+  /* padding: 0px 220px; */
+
+  height: 100vh;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 500px) {
+
+  /* Modify styles for the pdf container and embedded PDF in smaller screens */
+  #pdf-container {
+    margin-top: 10px;
+  }
+
+  #pdf-embed {
+    max-width: 100%;
+    max-height: 100vh;
+  }
+}

@@ -1,0 +1,93 @@
+.tables {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse !important;
+    width: 100%;
+}
+
+.intable td,
+.intable th {
+    border: 1px solid #ddd !important;
+    padding: 8px !important;
+}
+
+.intable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.intable tr:hover {
+    background-color: #ddd;
+}
+
+.intable tr a {
+    color: #007697;
+    text-decoration: none;
+}
+
+.head {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    border-bottom: 2px solid maroon;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+}
+
+.head tr th {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .placements {
+        width: 100%;
+    }
+}
+
+.table-responsive {
+    margin: 10px auto;
+    padding: 10px;
+    width: 70%;
+}
+
+.table-container {
+    width: 100%;
+}
+
+.course-list-table thead tr th {
+    border-color: #ea6645;
+    color: #252525;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.course-list-table tbody tr th {
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    color: #767676;
+    font-weight: normal;
+    padding: 15px 10px;
+}
+
+.mousheader-img {
+    background-position: top;
+    /* width: 100%; */
+    background-size: contain;
+    margin-top: 20px;
+    margin-bottom: 5vh;
+    padding-bottom: 3vh;
+}
+
+.mousheader-name {
+    color: #000;
+    letter-spacing: 3px;
+}
+
+@media screen and (max-width:760px) {
+
+    .table-responsive {
+        width: 90%;
+    }
+}

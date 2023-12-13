@@ -1,0 +1,27 @@
+.card{
+  zoom: 0.95;
+  display: flex;
+  max-width: 450px; /* Set the maximum width for the cards */
+  margin: 0 auto;
+  min-height: 380px;
+}
+.card img {
+    border-radius: 8px 8px 0 0; /* Rounded corners for the top of the image */
+    max-height: 200px; /* Set the maximum height for the images */
+    object-fit: cover; 
+  }
+  
+  .card-body {
+    background-color: #ebe7e7;
+    padding: 20px; /* Add padding to the card body */
+  }
+  
+  .card-title {
+    color: #333; /* Text color for the card title */
+  }
+  
+  .card-text {
+    
+    color: #4f4e4e; /* Text color for the card text */
+  }
+  

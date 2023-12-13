@@ -1,0 +1,58 @@
+/* team css */
+.team-heading {
+    font-size: 30px;
+    margin: 0 5%;
+}
+
+i {
+    color: black;
+    font-size: 25px;
+    margin-right: 4%;
+}
+
+.heading-text {
+    font-size: 17px;
+    margin-left: 5%;
+}
+
+.facdet {
+    font-size: 25px;
+    margin-left: 8%;
+    margin-bottom: 0;
+}
+
+.narendra {
+    height: 160px !important;
+}
+
+section {
+    margin-left: 0%;
+}
+
+.studet {
+    font-size: 20px;
+    margin-left: 8%;
+    margin-bottom: 0;
+}
+
+.card-text {
+    margin-bottom: 7%;
+}
+
+/* end */
+
+.card-img-top {
+    height: 235px;
+}
+
+@media (max-width:500px) {
+    .card-img-top {
+        height: 195px;
+    }
+}
+
+@media (max-width:375px) {
+    .card-img-top {
+        height: 155px;
+    }
+}

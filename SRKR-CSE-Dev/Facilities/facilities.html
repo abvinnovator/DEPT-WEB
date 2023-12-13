@@ -1,0 +1,1949 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assests/images/favicon.png">
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <title>SRKR CSE</title> 
+    
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="../assets/navbar.css">
+    <link rel="stylesheet" href="assets/facilities.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a title="logo" class="navbar-brand" href="../index.html"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      About
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="../Faculty/faculty.html">Faculty</a></li>
+                        <li><a class="dropdown-item" href="../Ace/ace.html">Student Activities</a></li>
+                        <li><a class="dropdown-item" href="../Facilities/facilities.html">Facilities</a></li>
+                        <li><a class="dropdown-item" href="../Alumini/alumini.html">Alumini</a></li>
+                        <li><a class="dropdown-item" href="../Vision Mission/vismis.html">Vision & Mission</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Academic
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="../Syllabus/syllabus.html">Syllabus</a></li>
+                        <li><a class="dropdown-item" href="../Timetable/time-table.html">TimeTables</a></li>
+                        <li><a class="dropdown-item" href="../Regulations/regulations.html">Regulations</a></li>
+                        <li><a class="dropdown-item" href="../Calender/calender.html">Academic Calender</a></li>
+                        <li><a class="dropdown-item" href="http://www.srkrexams.in/Login.aspx">Results</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Administration
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item navlink" href="../Commitee/commiteebos.html">Committe & <br>Board of Studies</a></li>
+                        <li><a class="dropdown-item navlink" href="../Govt/governingbody.html">Governing Body</a></li>
+                        <li><a class="dropdown-item navlink" href="../Mous/Mous.html">MOUS</a></li>
+                        <li><a class="dropdown-item navlink" href="../Intake and Fee/intake&fee.html">Intake and Fee</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Accomplishments
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item navlink" href="../Achievements/achievements.html">Achivements</a></li>
+                        <li><a class="dropdown-item navlink" href="../Placements/placement.html">Placements</a></li>
+                        <li><a class="dropdown-item navlink" href="../Publications/publications.html">Publications</a></li>
+                        <li><a class="dropdown-item navlink" href="../Research/research.html">Research</a></li>
+                        <li><a class="dropdown-item navlink" href="../CSE Press/csepress.html">CSE @ Press</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+<!-- 1)Page must be Responsive -->
+<!-- 2)Don't Write Css code either in inline or internal 
+        please write your css in external file. -->
+<!-- 3)Name your html file as assignedwork.html and css file as assignedwork.css -->
+<!-- 4) Refer Srkr Website for the data. -->
+<!-- 5)Don't disturb the above and below code  -->
+
+
+
+<!-- write Your code here   -->
+<div id="carousel_1" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://srkrec.edu.in/img/cse/15.jpg" class="d-block w-100 img-fluid" alt="..." height="600px">
+        
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Class Rooms</h2>
+            <p>"Our institution boasts well-appointed classrooms that foster an optimal learning atmosphere."</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://srkrec.edu.in/img/cse/12.jpg" class="d-block w-100 img-fluid" alt="..." height="600px">
+        <div class="carousel-caption d-none d-md-block">
+            <h2>Computer Labs</h2>
+            <p>"We have advanced computer labs featuring cutting-edge technology."</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://srkrec.edu.in/img/cse/6.jpg" class="d-block w-100 img-fluid" alt="..." height="600px">
+        <div class="carousel-caption d-none d-md-block">
+            <h2>Seminar Halls</h2>
+            <p>"Our facility includes dedicated seminar halls equipped for hosting conferences and workshops."</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- counting numbers -->
+<div class="section-work-data section">
+    <div class="matter">
+      <div class="user">
+        <h2 data-number="50" class="counter-numbers">0</h2>
+        <h3>Exceptional Classroom Environment</h3>
+        <p>We have high-quality classrooms that are designed to facilitate effective learning.</p>
+      </div>
+  
+      <div class="system">
+        <h2 data-number="25" class="counter-numbers">0</h2>
+        <h3>Advanced Laboratory Facilities</h3>
+        <p>We have advanced computer labs featuring cutting-edge technology.We boast high-tech computer labs that offer the latest technological advancements</p>
+      </div>
+  
+      <div class="book">
+        <h2 data-number="4" class="counter-numbers">0</h2>
+        <h3>Dynamic Seminar Spaces</h3>
+        <p>We offer fully equipped seminar halls with audiovisual capabilities, perfect for hosting professional conferences and seminars.</p>
+      </div>
+    </div></div>
+
+    <section>
+        <div class="text-center">
+            <h1>Seminar halls Details</h1>
+        </div><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    
+                    <div class="container semdet calling1">
+                        <div class="row">
+                            <div class="col">
+                                <p>New Seminar Hall</p>
+                            </div>
+                            <div class="col">
+                                <i class="fa-sharp fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showing1">
+                        <div class="card mb-3" >
+                            <div class="row g-0">
+                              <div class="col-md-7">
+                                <img src="https://srkrec.edu.in/img/cse/6.jpg" class="img-fluid rounded-start" alt="..." style="width: 550px;height:280px;">
+                              </div>
+                              <div class="col-md-5">
+                                <div class="card-body">
+                                  <h5 class="card-title">New Seminar Hall</h5>
+                                  <p class="card-text">CSE Department, 4<sup>th</sup> Floor, Room no: {CAB 501}.</p>
+                            
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="container semdet calling2">
+                        <div class="row">
+                            <div class="col">
+                                <p>Seminar Hall-2</p>
+                            </div>
+                            <div class="col">
+                                <i class="fa-sharp fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showing2">
+                        <div class="card mb-3" >
+                            <div class="row g-0">
+                              <div class="col-md-7">
+                                <img src="./assets/images/seminarhall2.jpg" class="img-fluid rounded-start" alt="..." style="width: 550px;height:280px;">
+                              </div>
+                              <div class="col-md-5">
+                                <div class="card-body">
+                                  <h5 class="card-title">Seminar Hall-2</h5>
+                                  <p class="card-text">CSE Department, 2<sup>nd</sup> Floor, Room no: {C 305}.</p>
+                            
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    </div>
+                </div>
+            </div><br><br><br>
+                    <div class="text-center">
+                        <h1>Lab Details</h1>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="container semdet calling4">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p>Software Lab-1</p>
+                                        </div>
+                                        <div class="col">
+                                            <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="showing4">
+                                    <div class="card">
+                                        <img src="./assets/images/lab1.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Software Lab-I</h5>
+                                            <div class="container">
+                                              <div class="row">
+                                                  <div class="col-6">
+                                                      <p class="card-text">Lab Area:-</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">110 sqm</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Number of Systems (Desktop) </p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">36</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Number of terminals in LAN</p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">36</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Processor</p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">1.Dell  optiplex 3000 Intel Core i5 Processor/8GB DDR4 RAM/512 SSD HDD/ 18.5” Monitor / Dell Keyboard / Dell Mouse – (35 No’s)</p>
+                                                      <p class="card-text">2. Lenovo H30-50 CPU  Intel Core I3 Processor/4GB DDR4 Ram/512gb HDD/ 18.5” Monitor – 
+                                                        (1 No’s)
+                                                        </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Hard Disk Drive</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">500 GB </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Monitor</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">DELL</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Operating System</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Windows 10 64-bit  </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Switches </p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">D-Link  24PORT Switches
+                                                        (1 No’s)
+                                                     D- Link 8           port switches
+                                                     (12 No’s)
+                                                     1 GBPS Ethernet.
+                                                     </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Internet Facility</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">200Mbps of BluWiFi Shared Bundled Net</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Projector</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Epson
+                                                        Eb-31 
+                                                       Projector 
+                                                       (1 No’s) 
+                                                       </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Printers</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">HP Laser Jet Pro 400 M401N(shared)</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Software’s Installed                                        </p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">JAVA 1.7,
+                                                        DEV CPP 5.1,
+                                                        Oracle 11i,
+                                                        MS-Office 2007,
+                                                        Adobe Reader.</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Labs Conducted</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Database Management Systems Lab,<br>
+                                                        Network Programming Lab,<br>
+                                                        Online exams,<br>
+                                                        Coding context workshop hands-on
+                                                        sessions. </p>
+                                                  </div>
+                                                 
+                                              </div>
+                                            </div>
+                                      
+                                          </div>
+                                      </div>
+                                </div>
+                                <div class="container semdet calling5">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p>Software Lab-2</p>
+                                        </div>
+                                        <div class="col">
+                                            <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                  <div class="showing5">
+                                    <div class="card">
+                                        <img src="./assets/images/lab2.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Software Lab-II</h5>
+                                            <div class="container">
+                                              <div class="row">
+                                                  <div class="col-6">
+                                                      <p class="card-text">Lab Area:-</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">104 sqm</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Number of Systems (Desktop) </p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">36</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Number of terminals in LAN</p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">36</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Processor</p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">1. Dell  optiplex 3000 Intel Core i5 Processor/8GB DDR4 RAM/512 SSD HDD/ 18.5” Monitor / Dell Keyboard / Dell Mouse – (35 No’s)</p>
+                                                      <p class="card-text">2.Lenovo H30-50 CPU  Intel Core I3 Processor/4GB DDR4 Ram/512gb HDD/ 18.5” Monitor
+                                                        (1 No’s)
+                                                        </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Hard Disk Drive</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">500 GB </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Monitor</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">DELL</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Operating System</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Windows 10 64-bit  </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Switches </p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">D-Link  24PORT Switches-(1No’s)
+                                                        D- Link 8           port switches
+                                                        (12 No’s) 1GBPS Ethernet.
+                                                        </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Internet Facility</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">200Mbps of BluWiFi Shared Bundled Net</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Projector</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Epson 
+                                                        Eb-31 
+                                                        Projector
+                                                        (1 No’s)
+                                                        </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Printers</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">HP Laser Jet Pro 400 M401N(shared)</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Software’s Installed</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Rational Rose,
+                                                        Anaconda,
+                                                        JAVA 1.7,
+                                                        CloudSim,
+                                                        DEV CPP 5.1,
+                                                        MS-Office 2007,
+                                                        Adobe Reader.</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Labs Conducted</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Application Development Lab,<br>
+                                                        Software Engineering Mini Project Lab,<br>
+                                                        Online exams,<br>
+                                                        Coding context workshop hands-on
+                                                        sessions. </p>
+                                                  </div>
+                                                 
+                                              </div>
+                                            </div>
+                                      
+                                          </div>
+                                      </div>
+                                </div>
+                                <div class="container semdet calling6">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p>Software Lab-3</p>
+                                        </div>
+                                        <div class="col">
+                                            <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="showing6">
+                                    <div class="card">
+                                        <img src="./assets/images/lab3.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Software Lab-III</h5>
+                                            <div class="container">
+                                              <div class="row">
+                                                  <div class="col-6">
+                                                      <p class="card-text">Lab Area:-</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">107 sqm</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Number of Systems (Desktop) </p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">36</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Number of terminals in LAN</p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">36</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Processor</p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">1.Dell Optiplex 3060
+                                                        Desk Top System 
+                                                        Intel Core i5 Processor
+                                                        8GB DDR4 RAM
+                                                        500 HDD
+                                                        18.5” Monitor/ Dell Keyboard / Dell Mouse (20 No’s)
+                                                        </p>
+                                                        <p class="card-text">2. Dell Optiplex 5060
+                                                            Desk Top System 
+                                                            (14 No’s)
+                                                            
+                                                            </p>
+                                                            <p class="card-text">3. Dell Optiplex 3046
+                                                                Desk Top System -
+                                                                (4 No’s)                                                    
+                                                                </p>
+                                                                <p class="card-text">4. Lenovo H30-50
+                                                                    Desktop
+                                                                    Intel Core I3 Processor/4GB Ddr4 Ram/512gb HDD/ 18.5” Monitor 
+                                                                    (1 No’s)
+                                                                    
+                                                                    
+                                                                    </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Hard Disk Drive</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">500 GB </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Monitor</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">DELL</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Operating System</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Windows 10 64-bit, Ubuntu 16.04 LTS</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Switches </p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">D Link 24port  Switch 
+                                                        (1 No’s)
+                                                        8 Port  switches
+                                                        (10 No’s)
+                                                        1GBPS Ethernet
+                                                        </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Internet Facility</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">200Mbps of BluWiFi Shared Bundled Net</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Projector</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Epson-
+                                                        Eb-E01 Projector
+                                                        (1 No’s)
+                                                        </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Printers</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">HP Laser Jet Pro 400 M401N(shared)</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Software’s Installed                                        </p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">JAVA 1.7, 
+                                                        DEV CPP 5.1
+                                                        MS-Office 2007, 
+                                                        Adobe Reader.</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Labs Conducted</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Data Structures Lab,<br>
+                                                        Operating Systems &
+                                                        Unix Lab,<br>
+                                                        Workshop on Internet of Things,<br>
+                                                        Online exams,<br>
+                                                        Coding contexts. </p>
+                                                  </div>
+                                                 
+                                              </div>
+                                            </div>
+                                      
+                                          </div>
+                                      </div>
+                                </div>
+                                <div class="container semdet calling7">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p>Software Lab-4</p>
+                                        </div>
+                                        <div class="col">
+                                            <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="showing7">
+                                    <div class="card">
+                                        <img src="./assets/images/lab4.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Software Lab-IV</h5>
+                                            <div class="container">
+                                              <div class="row">
+                                                  <div class="col-6">
+                                                      <p class="card-text">Lab Area:-</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">78.27 sqm</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Number of Systems (Desktop) </p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">36</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Number of terminals in LAN</p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">36</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Processor</p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">1.Dell OptiPlex 7010 Desktop Systems
+                                                        Intel Core i7 13th Gen Processor/
+                                                        16GB DDR4 RAM/512 SSD HDD/ 18.5” Monitor/ Dell Keyboard / Dell Mouse (36 No’s)
+                                                        </p>
+                                                        <p class="card-text">2. Dell Optiplex 3060
+                                                            Desk Top System
+                                                            Intel Core i5 Processor
+                                                            8GB DDR4 RAM
+                                                            500 HDD
+                                                            18.5” Monitor 
+                                                            (1 No’s)
+                                                            
+                                                            </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Hard Disk Drive</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">500 GB </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Monitor</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">DELL</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Operating System</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Windows 10 64-bit, Ubuntu 16.04 LTS</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Switches </p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">D-Link 24PORT Switchs-
+                                                        (1 No’s).
+                                                        D- Link 8 port switches
+                                                        (10 No’s).
+                                                        1GBPS Ethernet
+                                                        </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Internet Facility</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">200Mbps of BluWiFi Shared Bundled Net</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Projector</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Epson-Eb-X31 Projector
+                                                        (1 No’s)
+                                                        </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Printers</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">HP Laser Jet Pro 400 M401N(shared)</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Software’s Installed                                        </p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Anaconda, Arduino IDE
+                                                        Python 3.2,
+                                                        R software ,
+                                                        R studio,
+                                                        Apache Hadoop ,
+                                                        JAVA 1.7,
+                                                        Oracle 11i,
+                                                        DEV CPP 5.1,
+                                                        MS-Office 2007, Adobe Reader.</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Labs Conducted</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Data Analysis & Visualization,<br>
+                                                        Big Data Analytics,<br>
+                                                        Industry-Oriented
+                                                        Training (R Programming Lab)
+                                                        Internet of Things,<br>
+                                                        Competitive Coding, Competitive Programming.</p>
+                                                  </div>
+                                                 
+                                              </div>
+                                            </div>
+                                      
+                                          </div>
+                                      </div>
+                                </div>
+                                <div class="container semdet calling8">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p>Software Lab-5</p>
+                                        </div>
+                                        <div class="col">
+                                            <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="showing8">
+                                    <div class="card">
+                                        <img src="./assets/images/lab5.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Software Lab-V</h5>
+                                            <div class="container">
+                                              <div class="row">
+                                                  <div class="col-6">
+                                                      <p class="card-text">Lab Area:-</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">78.27 sqm</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Number of Systems (Desktop) </p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">36</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Number of terminals in LAN</p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">36</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Processor</p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Dell OptiPlex 7010 Desktop Systems
+                                                        Intel Core i7 13th Gen Processor/16GB DDR4 RAM/512 SSD HDD/ 18.5” Monitor/ Dell Keyboard / Dell Mouse – (36 No’s)
+                                                        </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Hard Disk Drive</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">500 GB </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Monitor</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">DELL</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Operating System</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Windows 10 64-bit, Ubuntu 16.04 LTS</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Switches </p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">D- Link 8 port switches-
+                                                        (10 No’s).
+                                                        1GBPS Ethernet
+                                                        </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Internet Facility</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">200Mbps of BluWiFi Shared Bundled Net</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Projector</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Canon EB-X31</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Printers</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">HP Laser Jet Pro 400 M401N(shared)</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Software’s Installed                                        </p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Anaconda,
+                                                        Python 3.2,
+                                                        R software,
+                                                        R studio,
+                                                        Apache Hadoop software,
+                                                        JAVA 1.7,
+                                                        Oracle 11i,
+                                                        DEV CPP 5.1,
+                                                        MS-Office 2007,
+                                                        Adobe Reader.</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Labs Conducted</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Data Analysis & Visualization
+                                                        Big Data Analytics,<br>
+                                                        Industry-Oriented Training (R Programming Lab)m,<br> Internet of Things,<br> Competitive Programming. </p>
+                                                  </div>
+                                                 
+                                              </div>
+                                            </div>
+                                      
+                                          </div>
+                                      </div>
+                                </div>
+                                <div class="container semdet calling9">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p>Software Lab-6</p>
+                                        </div>
+                                        <div class="col">
+                                            <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="showing9">
+                                    <div class="card">
+                                        <img src="./assets/images/lab6.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Software Lab-VI</h5>
+                                            <div class="container">
+                                              <div class="row">
+                                                  <div class="col-6">
+                                                      <p class="card-text">Lab Area:-</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">78.27 sqm</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Number of Systems (Desktop) </p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">36</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Number of terminals in LAN</p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">36</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Processor</p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">1. Dell Optiplex 3090
+                                                        Desk Top System 
+                                                        Intel Core i5 Processor
+                                                        8GB DDR4 RAM
+                                                        500 HDD
+                                                        18.5” Monitor/ Dell Keyboard / Dell Mouse –(15 No’s)
+                                                        </p>
+                                                        <p class="card-text">2.Dell Optiplex 3090
+                                                            Desktop Systems
+                                                            Intel Core i5 - /8GB DDR4 RAM/ 1TB HDD HDD/ 18.5” Monitor 
+                                                            (10 No’s)
+                                                            
+                                                            </p>
+                                                            <p class="card-text">3.Dell Optiplex 3020
+                                                                Desktop Systems-
+                                                                Intel Core I3 -1010S /8GB DDR4 RAM/500GB HDD HDD/ 18.5” Monitor – (14 No’s)
+                                                                
+                                                                </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Hard Disk Drive</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">500 GB </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Monitor</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">DELL</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Operating System</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Windows 10 64-bit, Ubuntu 16.04 LTS</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Switches </p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">D Link 24port 1gbps Switch 
+                                                        (No’s).
+                                                       8Port 1GBPS switches 
+                                                       (10 No’s).
+                                                       1GBPS Ethernet
+                                                       </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Internet Facility</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">200Mbps of BluWiFi Shared Bundled Net</p>
+                                                  </div>
+                                                  
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Projector</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Epson-Eb-E01 Projector
+                                                        (1 No’s).
+                                                        </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Printers</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">HP Laser Jet Pro 400 M401N</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Software’s Installed</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Anaconda, Python 3.2,
+                                                        R software, R Studio,
+                                                        Apache Hadoop software,
+                                                        JAVA 1.7, Oracle 11i,
+                                                        DEV CPP 5.1, MS-Office 2007,
+                                                        Adobe Reader.</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Labs Conducted</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">M. Tech Lab Courses. </p>
+                                                  </div>
+                                                 
+                                              </div>
+                                            </div>
+                                      
+                                          </div>
+                                      </div>
+                                </div>
+                                <div class="container semdet calling10">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p>Software Lab-7</p>
+                                        </div>
+                                        <div class="col">
+                                            <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="showing10">
+                                    <div class="card">
+                                        <img src="./assets/images/lab7.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Software Lab-VII</h5>
+                                            <div class="container">
+                                              <div class="row">
+                                                  <div class="col-6">
+                                                      <p class="card-text">Lab Area:-</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">79.24 sqm</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Number of Systems (Desktop) </p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">36</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Number of terminals in LAN</p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">36</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Processor</p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Dell Optiplex 3090
+                                                        Desktop Systems
+                                                        Intel Core i5 - /8GB DDR4 RAM/ 1TB HDD HDD/ 18.5” Monitor/ Dell Keyboard / Dell Mouse – (37 No’s)
+                                                        </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Hard Disk Drive</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">1 TB </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Monitor</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">DELL</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Operating System</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Ubuntu20.04</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Switches </p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">D Link 24port 1gbps Switch 
+                                                        (1 No’s).
+                                                        8 Port 1GBPS switches 
+                                                        (9  No’s).
+                                                        1GBPS Ethernet
+                                                        </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Internet Facility</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">200Mbps of BluWiFi Shared Bundled Net</p>
+                                                  </div>
+                                                  
+                                                  <hr>
+                                                  
+                                                          <div class="col-6">
+                                                              <p class="card-text">Projector</p>    
+                                                          </div>
+                                                          <div class="col-6">
+                                                              <p class="card-text">Epson-Eb-E01 Projector
+                                                                (1 No’s).
+                                                                
+                                                                </p>
+                                                          </div>
+                                                          <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Software’s Installed</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Anaconda,Python3.2.</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Labs Conducted</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">ML-LAB, UNIX-LAB. </p>
+                                                  </div>
+                                                 
+                                              </div>
+                                            </div>
+                                      
+                                          </div>
+                                      </div>
+                                </div>
+                                <div class="container semdet calling11">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p>Software Lab-8</p>
+                                        </div>
+                                        <div class="col">
+                                            <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="showing11">
+                                    <div class="card">
+                                        <img src="./assets/images/lab8.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Software Lab-VIII</h5>
+                                            <div class="container">
+                                              <div class="row">
+                                                  <div class="col-6">
+                                                      <p class="card-text">Lab Area:-</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">79.24 sqm</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Number of Systems (Desktop) </p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">36</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Number of terminals in LAN</p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">36</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Processor</p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Dell Optiplex 3090
+                                                          Desktop Systems
+                                                          Intel Core i5 - /8GB DDR4 RAM/ 1TB HDD HDD/ 18.5” Monitor/ Dell Keyboard / Dell Mouse – (37 No’s)
+                                                          </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Hard Disk Drive</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">1 TB </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Monitor</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">DELL</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Operating System</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Ubuntu16.04LTS</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Switches </p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">8 Port 1GB switches 
+                                                          (8 No’s).
+                                                          1GBPS Ethernet
+                                                          </p>
+                                                  </div>
+                                                  <hr>
+                                                    
+                                                  <div class="col-6">
+                                                      <p class="card-text">Projector</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Epson-Eb-E01 Projector
+                                                          (1 No’s).                                    
+                                                        
+                                                        </p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Internet Facility</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">200Mbps of BluWiFi Shared Bundled Net</p>
+                                                  </div>
+                                                  
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Software’s Installed</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Anaconda,Python3.2.</p>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="col-6">
+                                                      <p class="card-text">Labs Conducted</p>    
+                                                  </div>
+                                                  <div class="col-6">
+                                                      <p class="card-text">ML-LAB,UNIX-LAB,JAVA-LAB. </p>
+                                                  </div>
+                                                 
+                                              </div>
+                                            </div>
+                                      
+                                          </div>
+                                      </div>
+                                </div>
+
+                        </div>
+                        
+           <div class="col-lg-6 col-sm-12">
+            <div class="container semdet calling12">
+                <div class="row">
+                    <div class="col">
+                        <p>Software Lab-9</p>
+                    </div>
+                    <div class="col">
+                        <i class="fa-sharp fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="showing12">
+                <div class="card">
+                    <img src="./assets/images/lab9.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Software Lab-IX</h5>
+                        <div class="container">
+                          <div class="row">
+                              <div class="col-6">
+                                  <p class="card-text">Lab Area:-</p>    
+                              </div>
+                              <div class="col-6">
+                                  <p class="card-text">106 sqm</p>
+                              </div>
+                              <hr>
+                              <div class="col-6">
+                                  <p class="card-text">Number of Systems (Desktop) </p>
+                              </div>
+                              <div class="col-6">
+                                  <p class="card-text">72</p>
+                              </div>
+                              <hr>
+                              <div class="col-6">
+                                  <p class="card-text">Number of terminals in LAN</p>
+                              </div>
+                              <div class="col-6">
+                                  <p class="card-text">72</p>
+                              </div>
+                              <hr>
+                              <div class="col-6">
+                                  <p class="card-text">Processor</p>
+                              </div>
+                              <div class="col-6">
+                                  <p class="card-text"> Dell Optiplex 3020
+                                    Desktop Systems
+                                    Intel Core i3 - /4GB DDR4 RAM/500GB HDD/ 18.5” Monitor/Dell Keyboard / Dell Mouse – (72 No’s)
+                                    </p>
+                              </div>
+                              <hr>
+                              <div class="col-6">
+                                  <p class="card-text">Hard Disk Drive</p>    
+                              </div>
+                              <div class="col-6">
+                                  <p class="card-text">500 GB </p>
+                              </div>
+                              <hr>
+                              <div class="col-6">
+                                  <p class="card-text">Monitor</p>    
+                              </div>
+                              <div class="col-6">
+                                  <p class="card-text">DELL</p>
+                              </div>
+                              <hr>
+                              <div class="col-6">
+                                  <p class="card-text">Operating System</p>    
+                              </div>
+                              <div class="col-6">
+                                  <p class="card-text">Windows 10 64-bit</p>
+                              </div>
+                              <hr>
+                              <div class="col-6">
+                                  <p class="card-text">Switches </p>    
+                              </div>
+                              <div class="col-6">
+                                  <p class="card-text">D Link 24port 1gbps Switch 
+                                    (1 No’s).
+                                    8 Port 1GB switches
+                                     (12 No’s).
+                                    1GBPS Ethernet
+                                    </p>
+                              </div>
+                              <hr>
+                              <div class="col-6">
+                                  <p class="card-text">Internet Facility</p>    
+                              </div>
+                              <div class="col-6">
+                                  <p class="card-text">200Mbps of BluWiFi Shared Bundled Net</p>
+                              </div>
+                              <hr>
+                              <div class="col-6">
+                                  <p class="card-text">Projector</p>    
+                              </div>
+                              <div class="col-6">
+                                  <p class="card-text">Epson-Eb-EBS41 Projector
+                                    (1 No’s).
+                                    </p>
+                              </div>
+                              <hr>
+                              <div class="col-6">
+                                  <p class="card-text">Printers</p>    
+                              </div>
+                              <div class="col-6">
+                                  <p class="card-text">HP Laser Jet Pro 400 M401N(shared)</p>
+                              </div>
+                              <hr>
+                              <div class="col-6">
+                                  <p class="card-text">Software’s Installed</p>    
+                              </div>
+                              <div class="col-6">
+                                  <p class="card-text">JAVA 1.7, 
+                                    DEV CPP 5.1
+                                    MS-Office 2007, 
+                                    Adobe Reader.</p>
+                              </div>
+                              <hr>
+                              <div class="col-6">
+                                  <p class="card-text">Labs Conducted</p>    
+                              </div>
+                              <div class="col-6">
+                                  <p class="card-text">Allotted to first year students to practice. </p>
+                              </div>
+                             
+                          </div>
+                        </div>
+                  
+                      </div>
+                  </div>
+            </div>
+            <div class="container semdet calling13">
+                <div class="row">
+                    <div class="col">
+                        <p>Software Lab-10</p>
+                    </div>
+                    <div class="col">
+                        <i class="fa-sharp fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+          <div class="showing13">
+              <div class="card">
+                  <img src="./assets/images/lab10.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Software Lab-X</h5>
+                      <div class="container">
+                        <div class="row">
+                            <div class="col-6">
+                                <p class="card-text">Lab Area:-</p>    
+                            </div>
+                            <div class="col-6">
+                                <p class="card-text">79.24 sqm</p>
+                            </div>
+                            <hr>
+                            <div class="col-6">
+                                <p class="card-text">Number of Systems (Desktop) </p>
+                            </div>
+                            <div class="col-6">
+                                <p class="card-text">36</p>
+                            </div>
+                            <hr>
+                            <div class="col-6">
+                                <p class="card-text">Number of terminals in LAN</p>
+                            </div>
+                            <div class="col-6">
+                                <p class="card-text">36</p>
+                            </div>
+                            <hr>
+                            <div class="col-6">
+                                <p class="card-text">Processor</p>
+                            </div>
+                            <div class="col-6">
+                                <p class="card-text"> Dell Optiplex 3060
+                                    Desktop Systems
+                                    Intel Core i5 Processor
+                                    8GB DDR4 RAM
+                                    500 HDD
+                                    18.5” Monitor / Dell Keyboard / Dell Mouse (33  No’s) 
+                                    </p>
+                                    <p class="card-text"> Dell Optiplex 5060
+                                        Desk Top System 
+                                        Intel Core i5 Processor
+                                        8GB DDR4 RAM 500 HDD
+                                        18.5” Monitor
+                                        (3 No’s).
+                                        1GBPS Ethernet
+                                        
+                                        </p>
+                            </div>
+                            <hr>
+                            <div class="col-6">
+                                <p class="card-text">Hard Disk Drive</p>    
+                            </div>
+                            <div class="col-6">
+                                <p class="card-text">500 GB </p>
+                            </div>
+                            <hr>
+                            <div class="col-6">
+                                <p class="card-text">Monitor</p>    
+                            </div>
+                            <div class="col-6">
+                                <p class="card-text">DELL</p>
+                            </div>
+                            <hr>
+                            <div class="col-6">
+                                <p class="card-text">Operating System</p>    
+                            </div>
+                            <div class="col-6">
+                                <p class="card-text">Windows 10 </p>
+                            </div>
+                            <hr>
+                            <div class="col-6">
+                                <p class="card-text">Switches </p>    
+                            </div>
+                            <div class="col-6">
+                                <p class="card-text">D Link 24port 1gbps Switch 
+                                    (1 No’s).
+                                    8 Port 1GBPS switches
+                                     (10 No’s).
+                                    1GBPS Ethernet
+                                    </p>
+                            </div>
+                            <hr>
+                            <div class="col-6">
+                                <p class="card-text">Internet Facility</p>    
+                            </div>
+                            <div class="col-6">
+                                <p class="card-text">200Mbps of BluWiFi Shared Bundled Net</p>
+                            </div>
+                            <hr>
+                              <div class="col-6">
+                                  <p class="card-text">Projector</p>    
+                              </div>
+                              <div class="col-6">
+                                  <p class="card-text">Epson-Eb-E01 Projector
+                                    (1 No’s).
+                                    
+                                    </p>
+                              </div>
+                            <hr>
+                            
+                            <div class="col-6">
+                                <p class="card-text">Software’s Installed</p>    
+                            </div>
+                            <div class="col-6">
+                                <p class="card-text">Anaconda,Python3.2,
+                                  JAVA1.7.</p>
+                            </div>
+                            <hr>
+                            <div class="col-6">
+                                <p class="card-text">Labs Conducted</p>    
+                            </div>
+                            <div class="col-6">
+                                <p class="card-text">IOT-LAB,JAVA LAB, Work Shop. </p>
+                            </div>
+                           
+                        </div>
+                      </div>
+                
+                    </div>
+                </div>
+          </div>
+          <div class="container semdet calling14">
+            <div class="row">
+                <div class="col">
+                    <p>Software Lab-11</p>
+                </div>
+                <div class="col">
+                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+        </div>
+        <div class="showing14">
+            <div class="card">
+                <img src="./assets/images/lab11.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Software Lab-XI</h5>
+                    <div class="container">
+                      <div class="row">
+                          <div class="col-6">
+                              <p class="card-text">Lab Area:-</p>    
+                          </div>
+                          <div class="col-6">
+                              <p class="card-text">79.24 sqm</p>
+                          </div>
+                          <hr>
+                          <div class="col-6">
+                              <p class="card-text">Number of Systems (Desktop) </p>
+                          </div>
+                          <div class="col-6">
+                              <p class="card-text">36</p>
+                          </div>
+                          <hr>
+                          <div class="col-6">
+                              <p class="card-text">Number of terminals in LAN</p>
+                          </div>
+                          <div class="col-6">
+                              <p class="card-text">36</p>
+                          </div>
+                          <hr>
+                          <div class="col-6">
+                              <p class="card-text">Processor</p>
+                          </div>
+                          <div class="col-6">
+                              <p class="card-text">1. Dell Optiplex 5060
+                                Desk Top System 
+                                Intel Core i5 Processor
+                                8GB DDR4 RAM
+                                500 HDD
+                                18.5” Monitor/ Dell Keyboard / Dell Mouse
+                                (33 No’s).
+                                </p>
+                                <p class="card-text">2. Dell Optiplex 3046 
+                                    Desk Top System 
+                                    Intel Core i5 Processor
+                                    8GB DDR4 RAM
+                                    500 HDD
+                                    18.5” Monitor
+                                    (3 No’s).
+                                    
+                                    </p>
+                          </div>
+                          <hr>
+                          <div class="col-6">
+                              <p class="card-text">Hard Disk Drive</p>    
+                          </div>
+                          <div class="col-6">
+                              <p class="card-text">500 GB </p>
+                          </div>
+                          <hr>
+                          <div class="col-6">
+                              <p class="card-text">Monitor</p>    
+                          </div>
+                          <div class="col-6">
+                              <p class="card-text">DELL</p>
+                          </div>
+                          <hr>
+                          <div class="col-6">
+                              <p class="card-text">Operating System</p>    
+                          </div>
+                          <div class="col-6">
+                              <p class="card-text">Windows 10 </p>
+                          </div>
+                          <hr>
+                          <div class="col-6">
+                              <p class="card-text">Switches </p>    
+                          </div>
+                          <div class="col-6">
+                              <p class="card-text">. D Link 
+                                8 Port 1GBPS switches 
+                                (10 No’s).
+                                1GBPS Ethernet
+                                </p>
+                          </div>
+                          <hr>
+                          <div class="col-6">
+                              <p class="card-text">Internet Facility</p>    
+                          </div>
+                          <div class="col-6">
+                              <p class="card-text">200Mbps of BluWiFi Shared Bundled Net</p>
+                          </div>
+                          <hr>
+                              <div class="col-6">
+                                  <p class="card-text">Projector</p>    
+                              </div>
+                              <div class="col-6">
+                                  <p class="card-text">Epson-Eb-E01 Projector
+                                    (1 No’s).
+                                    
+                                    </p>
+                              </div>
+                          <hr>
+                          <div class="col-6">
+                              <p class="card-text">Software’s Installed</p>    
+                          </div>
+                          <div class="col-6">
+                              <p class="card-text">Anaconda,Python3.2
+                                JAVA1.7,c.</p>
+                          </div>
+                          <hr>
+                          <div class="col-6">
+                              <p class="card-text">Labs Conducted</p>    
+                          </div>
+                          <div class="col-6">
+                              <p class="card-text">Engineering workshop lab,IOT-lab. </p>
+                          </div>
+                         
+                      </div>
+                    </div>
+              
+                  </div>
+              </div>
+        </div>
+        <div class="container semdet calling15">
+            <div class="row">
+                <div class="col">
+                    <p>Software Lab-12 AICTE MODROBS lab </p>
+                </div>
+                <div class="col">
+                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+        </div>
+        <div class="showing15">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Software Lab-XII</h5>
+                    <div class="container">
+                      <div class="row">
+                          <div class="col-6">
+                              <p class="card-text">Name of the Important Equipment:-</p>    
+                          </div>
+                          <div class="col-6">
+                              <p class="card-text">1.Raspberry pi 4 B with 4GB RAM 
+                                2.LENOVO Think System st550 4u server xeon silver 4110 octacore 16GB  India
+                                3.Dentistry moonray DCD 3D printer rayware india
+                                4. nVidia Tegra X1945-82771-0000-000-Jetson TX2 Development Kit
+                                5. Netgear GS724TP ProSafe 24 port GB Smart POE Switch
+                                6. Inspiron 24 5000 All-in-one Desktop (i5)
+                                7. Intel Galileo gen 2 board
+                                8.Quadcoptor combo DIY kit w/t kk 2.1.5 flight controller board and ct6b
+                                9.Manti lab MT-ACSD Dissolved oxygen electrode 0-20 mg/l
+                                10. Sensors Kit (37 in 1)
+                                11. PH Sensors
+                                12. Logitech MK215 wireless combo radio transfer, PC/MAC, Keyboard
+                                13. ESP- 32 Wifi BT/BLE Sensor IoT Development Board
+                                </p>
+                          </div>
+                         
+                      </div>
+                    </div>
+              
+                  </div>
+              </div>
+        </div>
+        <div class="container semdet calling16">
+            <div class="row">
+                <div class="col">
+                    <p>Server Room</p>
+                </div>
+                <div class="col">
+                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+        </div>
+        <div class="showing16">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Server Room</h5>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-6">
+                            <p class="card-text">Number of students per set up(Batch Size)</p>    
+                        </div>
+                        <div class="col-6">
+                            <p class="card-text">1
+                              
+                              </p>
+                        </div>
+                        <hr>
+                          <div class="col-6">
+                              <p class="card-text">Name of the Important Equipment:-</p>    
+                          </div>
+                          <div class="col-6">
+                              <p class="card-text">1. Power edgeT410 XEON Processor 
+                                2. 1.5 TB HDD 
+                                3. Windows 2008 Server R2 64-bit
+                                
+                                </p>
+                          </div>
+                        
+                          
+                         
+                      </div>
+                    </div>
+              
+                  </div>
+              </div>
+        </div>
+        <div class="container semdet calling17">
+            <div class="row">
+                <div class="col">
+                    <p>Power Room</p>
+                </div>
+                <div class="col">
+                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+        </div>
+        <div class="showing17">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Power Room</h5>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-6">
+                            <p class="card-text">Number of students per set up(Batch Size)</p>    
+                        </div>
+                        <div class="col-6">
+                            <p class="card-text">1
+                              
+                              </p>
+                        </div>
+                        <hr>
+                          <div class="col-6">
+                              <p class="card-text">Name of the Important Equipment:-</p>    
+                          </div>
+                          <div class="col-6">
+                              <p class="card-text">1.  6 KV APC UPS with 16 72 AHS external batteries
+                                (4  Nos.)
+                                
+                                2. 10 KV APC UPS with 16 100 AHS external batteries
+                                (3 Nos.)
+                                 3. 1KVA UPS
+                                (3 Nos.)
+                                
+                                
+                                </p>
+                          </div>
+                         
+                      </div>
+                    </div>
+              
+                  </div>
+              </div>
+        </div>
+        <div class="container semdet calling18">
+            <div class="row">
+                <div class="col">
+                    <p>Digital Learning 
+                        C-205 Room
+                        </p>
+                </div>
+                <div class="col">
+                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+        </div>
+            <div class="showing18">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Digital Learning 
+                            C-205 Room
+                            </h5>
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-6">
+                                <p class="card-text">Number of students per set up(Batch Size)</p>    
+                            </div>
+                            <div class="col-6">
+                                <p class="card-text">6
+                                  
+                                  </p>
+                            </div>
+                            <hr>
+                              <div class="col-6">
+                                  <p class="card-text">Name of the Important Equipment:-</p>    
+                              </div>
+                              <div class="col-6">
+                                  <p class="card-text">Dell Optiplex 3020
+                                    Desktop Systems
+                                    Intel Core i3 - /4GB DDR4 RAM/500GB HDD/ 18.5” Monitor/Dell Keyboard / Dell Mouse 
+                                    (6  No’s)
+                                    </p>
+                              </div>
+                             
+                          </div>
+                        </div>
+                  
+                      </div>
+                  </div>
+            </div>
+           </div>         
+    </div>
+</div>
+            
+        
+             
+        
+        
+    </section>
+    <!-- counting numbers end -->
+<!-- end -->
+
+<!--/footer-->
+<!--/footer-->
+<footer class="w3l-footer-22 ">
+    <div class="footer-sub py-5">
+      <div class="container1 ">
+        <div class="row sub-columns">
+          <div class="col-lg-4 col-md-6 sub-one-left ab-right-cont pr-lg-5 mb-md-0 mb-4">
+            <h3>About</h3>
+            <p>Sagi Rama Krishnam Raju Engineering College (SRKREC), established in 1980, is a self-financed academic institution of coeducation striving to provide a high quality technical education to engineering aspirants. Being one of the premier and well-established technical institutions of the country, it continues to render service to the nation and the world at large with its alumni holding highly prestigious positions and making substantial contribution.</p>
+            <div class="columns-2">
+              <ul class="social">
+                <li><a href="https://www.facebook.com/people/SRKR-CSE/61551537740203/" id="facebook"><span class="fab fa-facebook-f" aria-hidden="true"></span></a></li>
+                <!-- <li><a href="#linkedin"><span class="fab fa-linkedin-in" aria-hidden="true"></span></a></li> -->
+                <li><a href="https://www.instagram.com/srkr_cse/" id="instagram"><span class="fab fab fa-instagram" aria-hidden="true"></span></a></li>
+                <li><a href="https://www.youtube.com/@srkrcse212/" id="youtube"><span class="fab fab fa-youtube" aria-hidden="true"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 sub-two-right pl-lg-5">
+            <h3>Useful Links</h3>
+            <ul>
+              <li><a href="../index.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Home</a></li>
+              <!-- <li><a href="about.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;About</a></li> -->
+              <li><a href="../Placements/placement.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Placements</a></li>
+              <li><a href="../Govt/governingbody.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Governing Body</a></li>
+              <li><a href="../Contact/contact.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 sub-two-right pl-lg-5 mt-md-0 mt-4">
+            <h3>Academics</h3>
+            <ul>
+              <li><a href="../Syllabus/syllabus.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Syllabus</a></li>
+              <li><a href="../Timetable/time-table.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Timetables</a></li>
+              <li><a href="../Regulations/regulations.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Regulations</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 sub-two-right mt-md-0 mt-4">
+            <aside>
+              <h4>Contact Us</h4>
+  <address>
+    <strong>Computer Science And Engineering</strong>
+    <br>
+    <span>(Since 1991)</span>
+    <br><br>
+    <span>Dr. V. Chandra Sekhar </span>
+    <br>
+    <span>Head of the department</span>
+    <br>
+    <!-- <abbr title="Telephone">Telephone:</abbr> +91 9440351652
+    <br> -->
+  <span title="Telephone">Mobile:</span> +91 9440351652<br>
+    <span title="Email">Email:</span> <a href="#">dr.vcs@srkrec.ac.in</a>
+  </address>
+  </aside>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <a href="../Team/team.html"><p >WebDevelopment Team</p></a>
+            </div>
+          </div>
+        </div>
+        
+        <p>© 2023 SRKREC-CSE. All rights reserved. Design by <a href="https://srkrec.edu.in/" target="_blank">SRKREC</a></p>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/facilities.js"></script>
+</body>
+</html>

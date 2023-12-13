@@ -1,0 +1,177 @@
+/* facilities css */
+
+
+.carousel-caption h2 {
+    font-size: 4rem;
+}
+
+.carousel-caption p {
+    font-size: 1.3rem;
+}
+
+#carousel_1 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+@media (max-width:500px) {
+    #carousel_1 {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+
+.semdet {
+    border: 1px solid black;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.semdet p {
+    flex: 0.95;
+    margin-top: 16px;
+}
+
+.semdet i {
+    margin-top: 16px;
+    padding-left: 270px;
+}
+@media (max-width:500px) {
+    .semdet i {
+       
+        padding-left: 200px;
+    }
+}
+@media (max-width:420px) {
+    .semdet i {
+       
+        padding-left: 150px;
+    }
+}
+@media (max-width:370px) {
+    .semdet i {
+       
+        padding-left: 120px;
+    }
+}
+@media (max-width:335px) {
+    .semdet i {
+       
+        padding-left: 100px;
+    }
+}
+@media (max-width:325px) {
+    .semdet i {
+       
+        padding-left: 90px;
+    }
+}
+.col-lg-7 i {
+    margin-top: 16px;
+    padding-left: 270px;
+}
+
+.showing1 {
+    margin-top: 10px;
+    display: none;
+}
+
+.showing2 {
+    margin-top: 10px;
+    display: none;
+}
+
+.showing3 {
+    margin-top: 10px;
+    display: none;
+}
+
+.showing4 {
+    margin-top: 10px;
+    display: none;
+}
+
+.showing5 {
+    margin-top: 10px;
+    display: none;
+    
+}
+
+.showing6 {
+    margin-top: 10px;
+    display: none;
+}
+
+.showing7 {
+    margin-top: 10px;
+    display: none;
+}
+
+.showing8 {
+    margin-top: 10px;
+    display: none;
+}
+.showing9 {
+    margin-top: 10px;
+    display: none;
+}
+
+.showing10 {
+    margin-top: 10px;
+    display: none;
+}
+
+.showing11 {
+    margin-top: 10px;
+    display: none;
+}
+
+.showing12 {
+    margin-top: 10px;
+    display: none;
+}
+
+.showing13 {
+    margin-top: 10px;
+    display: none;
+}
+
+.showing14 {
+    margin-top: 10px;
+    display: none;
+}
+
+.showing15 {
+    margin-top: 10px;
+    display: none;
+}
+
+.showing16 {
+    margin-top: 10px;
+    display: none;
+}
+
+.showing17 {
+    margin-top: 10px;
+    display: none;
+}
+
+.showing18 {
+    margin-top: 10px;
+    display: none;
+}
+
+
+.icol {
+    padding-left: 280px;
+}
+
+.disdiv1 {
+    margin-top: 10px;
+    display: block;
+}
+
+.card{
+    margin-bottom: 10px;
+}

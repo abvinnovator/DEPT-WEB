@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel ="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assests/images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9daf660510.js" crossorigin="anonymous"></script>
+    <title>SRKR CSE</title>  
+    <link rel="stylesheet" href="../assets/navbar.css">
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a title="logo" class="navbar-brand" href="../index.html"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="../Faculty/faculty.html">Faculty</a></li>
+                    <li><a class="dropdown-item" href="../Ace/ace.html">Student Activities</a></li>
+                    <li><a class="dropdown-item" href="../Facilities/facilities.html">Facilities</a></li>
+                    <li><a class="dropdown-item" href="../Alumini/alumini.html">Alumini</a></li>
+                    <li><a class="dropdown-item" href="../Vision Mission/vismis.html">Vision & Mission</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Academic
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="../Syllabus/syllabus.html">Syllabus</a></li>
+                    <li><a class="dropdown-item" href="../Timetable/time-table.html">TimeTables</a></li>
+                    <li><a class="dropdown-item" href="../Regulations/regulations.html">Regulations</a></li>
+                    <li><a class="dropdown-item" href="../Calender/calender.html">Academic Calender</a></li>
+                    <li><a class="dropdown-item" href="http://www.srkrexams.in/Login.aspx">Results</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Administration
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item navlink" href="../Commitee/commiteebos.html">Committe & <br>Board of Studies</a></li>
+                    <li><a class="dropdown-item navlink" href="../Govt/governingbody.html">Governing Body</a></li>
+                    <li><a class="dropdown-item navlink" href="../Mous/Mous.html">MOUS</a></li>
+                    <li><a class="dropdown-item navlink" href="../Intake and Fee/intake&fee.html">Intake and Fee</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Accomplishments
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item navlink" href="../Achievements/achievements.html">Achivements</a></li>
+                    <li><a class="dropdown-item navlink" href="../Placements/placement.html">Placements</a></li>
+                    <li><a class="dropdown-item navlink" href="../Publications/publications.html">Publications</a></li>
+                    <li><a class="dropdown-item navlink" href="../Research/research.html">Research</a></li>
+                    <li><a class="dropdown-item navlink" href="../CSE Press/csepress.html">CSE @ Press</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+<!-- 1)Page must be Responsive -->
+<!-- 2)Don't Write Css code either in inline or internal 
+        please write your css in external file. -->
+<!-- 3)Name your html file as assignedwork.html and css file as assignedwork.css -->
+<!-- 4) Refer Srkr Website for the data. -->
+<!-- 5)Don't disturb the above and below code  -->
+
+
+
+<!-- write Your code here   -->
+
+<div class="container">
+    <div class="row">
+        <div class=" alumini">
+            <img class="img-fluid" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-logo-img.png" />
+            <h1 class="ml-3 head100">SRKREC ALUMNI ASSOCIATION</h1>
+            <p></p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="paragraph">About SRKR Alumni Association</h1>
+            <hr>
+            <p class="paragraph1">SRKR Engineering College (SRKREC) has groomed many young men and women to be the world-cass engineers since its establishment in the year 1980. The renowned alumni of SRKREC are now spread across the world, contributing to the society as Engineers, Teachers, Scientists and Entrepreneurs.</p>
+            <p class="paragraph1">The alumni are making SRKREC proud of its hardwork in shaping these talented brains by winning laurels at national and international levels. We are proud to say that our alumni are at the helm of several organizations globally. Today SRKREC alumni have a significant presence in USA, Europe, Middle East and Asia. SRKREC Alumni Association was registered on 27th June 2007 under the Society Registration Act XXXV of 2001. The association has brought all the earlier Alumni groups together and is the only recognised Alumni Association by the college.</p>
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">   
+        <div class="col-12">
+            <h1 class="paragraph">Activities : </h1>
+            <hr>
+            <ul>
+                <li class="paragraph1">Conducting alumni meets in different parts of the world.</li>
+                <li class="paragraph1">Conducting Soft skill training program for students.</li>
+                <li class="paragraph1">Organizing Silver jubilee meets.</li>
+                <li class="paragraph1">Sponsoring for poor and Meritorious students.</li>
+                <li class="paragraph1">Conducting Guest Lectures for students.</li>
+                <li class="paragraph1">Sponsoring for department technical events. </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="heading-alumini mb-4">Features<h1>
+                  <hr>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="text-center mb-5">
+                    <i class="fa-solid fa-earth-americas"></i>
+                    <p class="paragraph">Easy to connect</p>
+                    <p class="paragraph1"> Alumni networks provide a vast pool of connections from different industries and professions, offering networking opportunities that can lead to career growth and new collaborations.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="text-center mb-5">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <p class="paragraph">Career Support</p>
+                    <p class="paragraph1">Engaged alumni may share job openings, offer referrals, or help in recruiting talented graduates from their alma mater.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="text-center mb-5">
+                    <i class="fa-solid fa-bell"></i>                    
+                    <p class="paragraph">Mentorship and Guidance </p>
+                    <p class="paragraph1"> Alumni can offer valuable advice and mentorship to current students, helping them navigate their academic and professional paths.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="text-center mb-5">
+                    <i class="fa-solid fa-code"></i>                    
+                    <p class="paragraph">Interaction </p>
+                    <p class="paragraph1"> Alumni might collaborate with current faculty and students on research projects, contributing their expertise and experience.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="text-center mb-5">
+                    <i class="fa-solid fa-users"></i>                   
+                     <p class="paragraph">Social and Community Engagement</p>
+                    <p class="paragraph1"> Alumni events foster a sense of community, allowing former students to reconnect and build lasting relationships.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="text-center mb-5">
+                    <i class="fa-solid fa-hands"></i>
+                    <p class="paragraph">Fundraising and Donations</p>
+                    <p class="paragraph1">Satisfied alumni are more likely to contribute to the college through donations and fundraising efforts, helping to improve facilities and educational programs.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <p class="studet text-center" style="font-size: 38px;"><b>Alumini</b></p>
+    <section style="padding: 0 6% 0 13%;margin-bottom: 4%;background:#ddd;width:100vw">
+    <hr style="margin-top: 0;margin-left:7.7%;width:8.5%;">
+        
+        <div class="row row-cols-2 row-cols-lg-4 g-4 " style="text-align: center;" >
+          <div class="col">
+            <div class="card h-100 Asprof">
+              <div class="aspsize">
+              <img src="./assets/images/sri satish.jpeg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <p class="card-text">Sri Satish Ambati</p>
+                <p class="card-text">Founder and CEO</p><br>
+                <p class="card-text">H20 AI USA</p>
+              <p class="card-text">1994 - 1998</p>
+              <!-- <p class="card-text"><a href="https://www.linkedin.com/in/tarun-sai-srinivas-998884243/"><i class="fa-brands fa-linkedin"></i></a><a href="mailto:tarunsaisrinivas7@gmail.com"><i class="fa-solid fa-envelope"></i></a><a href="#"><i class="fa-brands fa-square-github"></i></a></p> -->
+              </div>
+            </div>
+          </div>
+         
+          
+            <div class="col">
+              <div class="card h-100">
+                <div class="aspsize">
+                <img src="./assets/images/chalana bezawada.jpeg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Chalana Bezawada</p>
+                  <p class="card-text">Graphics Engineering Manager</p>
+                  <p class="card-text">INTEL USA</p>
+                  <p class="card-text">1994 - 1998</p>
+                  <!-- <p class="card-text"><a href="https://www.linkedin.com/in/sriram-karthik-akula-34a2a0221/"><i class="fa-brands fa-linkedin"></i></a><a href="mailto:sriramkarthikakula6@gmail.com"><i class="fa-solid fa-envelope"></i></a><a href="https://github.com/Sriramkarthikakula"><i class="fa-brands fa-square-github"></i></a></p> -->
+                </div>
+              </div>
+            </div>
+           
+              <div class="col">
+                <div class="card h-100 Asprof">
+                  <div class="aspsize">
+                  <img src="./assets/images/satish madalika.jpeg" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Satish Madalika</p>
+                    <p class="card-text">Founder and CEO</p><br>
+                    <p class="card-text">DRISHYAM AI USA</p>
+                  <p class="card-text">1991 - 1995</p>
+                  <!-- <p class="card-text"><a href="https://www.linkedin.com/in/sriram-karthik-akula-34a2a0221/"><i class="fa-brands fa-linkedin"></i></a><a href="mailto:sriramkarthikakula6@gmail.com"><i class="fa-solid fa-envelope"></i></a><a href="https://github.com/Sriramkarthikakula"><i class="fa-brands fa-square-github"></i></a></p> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 Asprof">
+                  <div class="aspsize">
+                  <img src="./assets/images/sanjeev tenneti.jpeg" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Sanjeev Tenneti</p>
+                    <p class="card-text">Founder and CEO</p><br>
+                    <p class="card-text">ADOBE USA</p>
+                  <p class="card-text">1991 - 1995</p>
+                  <!-- <p class="card-text"><a href="https://www.linkedin.com/in/sriram-karthik-akula-34a2a0221/"><i class="fa-brands fa-linkedin"></i></a><a href="mailto:sriramkarthikakula6@gmail.com"><i class="fa-solid fa-envelope"></i></a><a href="https://github.com/Sriramkarthikakula"><i class="fa-brands fa-square-github"></i></a></p> -->
+                  </div>
+                </div>
+              </div>
+            
+              <div class="col">
+                <div class="card h-100 Asprof">
+                  <div class="aspsize">
+                  <img src="./assets/images/sridhar sambangi.jpeg" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Sridhar Sambangi</p>
+                    <p class="card-text">Founder President</p>
+                    <p class="card-text">CLODER INC USA</p>
+                  <p class="card-text">1993 - 1997</p>
+                  <!-- <p class="card-text"><a href="https://www.linkedin.com/in/sriram-karthik-akula-34a2a0221/"><i class="fa-brands fa-linkedin"></i></a><a href="mailto:sriramkarthikakula6@gmail.com"><i class="fa-solid fa-envelope"></i></a><a href="https://github.com/Sriramkarthikakula"><i class="fa-brands fa-square-github"></i></a></p> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 Asprof">
+                  <div class="aspsize">
+                  <img src="./assets/images/kiran bonda.jpeg" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Kiran Bonda</p>
+                    <p class="card-text">Vice President</p>
+                    <p class="card-text">TRADE WEB</p>
+                  <p class="card-text">1996 - 2000</p>
+                  <!-- <p class="card-text"><a href="https://www.linkedin.com/in/sriram-karthik-akula-34a2a0221/"><i class="fa-brands fa-linkedin"></i></a><a href="mailto:sriramkarthikakula6@gmail.com"><i class="fa-solid fa-envelope"></i></a><a href="https://github.com/Sriramkarthikakula"><i class="fa-brands fa-square-github"></i></a></p> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 Asprof">
+                  <div class="aspsize">
+                  <img src="./assets/images/sunil gottumukkala.jpeg" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Sunil Gottumukkala</p>
+                    <p class="card-text">Senior Vice President</p>
+                    <p class="card-text">SALESFORCE USA</p>
+                  <p class="card-text">1994 - 1998</p>
+                  <!-- <p class="card-text"><a href="https://www.linkedin.com/in/sriram-karthik-akula-34a2a0221/"><i class="fa-brands fa-linkedin"></i></a><a href="mailto:sriramkarthikakula6@gmail.com"><i class="fa-solid fa-envelope"></i></a><a href="https://github.com/Sriramkarthikakula"><i class="fa-brands fa-square-github"></i></a></p> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 Asprof">
+                  <div class="aspsize">
+                  <img src="./assets/images/sirisha kunduri.jpeg" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Sirisha kunduri</p>
+                    <p class="card-text">Vice President</p>
+                    <p class="card-text">CHOICE HOTELS</p>
+                  <p class="card-text">1994 - 1998</p>
+                  <!-- <p class="card-text"><a href="https://www.linkedin.com/in/sriram-karthik-akula-34a2a0221/"><i class="fa-brands fa-linkedin"></i></a><a href="mailto:sriramkarthikakula6@gmail.com"><i class="fa-solid fa-envelope"></i></a><a href="https://github.com/Sriramkarthikakula"><i class="fa-brands fa-square-github"></i></a></p> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 Asprof">
+                  <div class="aspsize">
+                  <img src="./assets/images/sashidhar annaluru.jpeg" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Sashidhar Annaluru</p>
+                    <p class="card-text">Director Software Engineering</p>
+                    <p class="card-text">PULSE SECURE USA</p>
+                  <p class="card-text">1996 - 2000</p>
+                  <!-- <p class="card-text"><a href="https://www.linkedin.com/in/sriram-karthik-akula-34a2a0221/"><i class="fa-brands fa-linkedin"></i></a><a href="mailto:sriramkarthikakula6@gmail.com"><i class="fa-solid fa-envelope"></i></a><a href="https://github.com/Sriramkarthikakula"><i class="fa-brands fa-square-github"></i></a></p> -->
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100 Asprof">
+                <div class="aspsize">
+                  <img src="./assets/images/Sirisha Tata.jpeg" class="card-img-top" alt="...">
+                </div>
+                  <div class="card-body">
+                    <p class="card-text">Sirisha Tata</p>
+                    
+                    <p class="card-text">Vice President</p><br>
+                    <p class="card-text">IPTIQ</p>
+                  <p class="card-text">1995 - 1999 </p>
+                  <!-- <p class="card-text"><a href="https://www.linkedin.com/in/sriram-karthik-akula-34a2a0221/"><i class="fa-brands fa-linkedin"></i></a><a href="mailto:sriramkarthikakula6@gmail.com"><i class="fa-solid fa-envelope"></i></a><a href="https://github.com/Sriramkarthikakula"><i class="fa-brands fa-square-github"></i></a></p> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 Asprof">
+                <div class="aspsize">
+                  <img src="./assets/images/sunil sayyaparaju.jpg" class="card-img-top" alt="...">
+                </div>
+                  <div class="card-body">
+                    <p class="card-text">Sunil Sayyaparaju</p>
+                    <p class="card-text">Vice President</p><br>
+                    <p class="card-text">AEROSPIKE</p>
+
+                  <p class="card-text">1995 - 1999 </p>
+                  <!-- <p class="card-text"><a href="https://www.linkedin.com/in/sriram-karthik-akula-34a2a0221/"><i class="fa-brands fa-linkedin"></i></a><a href="mailto:sriramkarthikakula6@gmail.com"><i class="fa-solid fa-envelope"></i></a><a href="https://github.com/Sriramkarthikakula"><i class="fa-brands fa-square-github"></i></a></p> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 Asprof">
+                <div class="aspsize">
+                  <img src="./assets/images/srirami reddy gangireddy.jpg" class="card-img-top" alt="...">
+                </div>
+                  <div class="card-body">
+                    <p class="card-text">Srirami Reddy</p>
+                    <p class="card-text">Software Senior Principal Engineer</p>
+                    <p class="card-text">TEXAS INSTRUMENTS</p>
+
+                  <p class="card-text">1992 - 1996 </p>
+                  <!-- <p class="card-text"><a href="https://www.linkedin.com/in/sriram-karthik-akula-34a2a0221/"><i class="fa-brands fa-linkedin"></i></a><a href="mailto:sriramkarthikakula6@gmail.com"><i class="fa-solid fa-envelope"></i></a><a href="https://github.com/Sriramkarthikakula"><i class="fa-brands fa-square-github"></i></a></p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+    </section>
+
+
+    
+
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-12">
+            <p class="paragraph">Alumni Picture Gallery</p>
+        </div>
+    </div>
+</div> -->
+
+
+
+<div class="bg-containery pd-4 pt-4">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div>
+                    <h1 class="headingy">Alumni Picture Gallery</h1>
+                    <hr > 
+                    <p class="paragraphy">Welcome to our Alumni Picture Gallery, where memories come alive and stories unfold. This gallery is a tribute to the cherished moments, lifelong friendships, and remarkable achievements of our esteemed alumni. As we take a stroll down memory lane, we invite you to relive the experiences that shaped us into the individuals we are today.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 my-4">
+                <div class="bg-card-containery shadow  text-center pt-3 pb-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoV52oomgjLLS5QYozvcEvvi_gq2H6PNLIDA&usqp=CAU" class="imagey">
+                    <h3 class="heading1y">Rajamundry Meet-2019 (1984-88 Civil reunion)</h3>
+                    <p class="paragraph1y">"From the classrooms to the world, our alumni make a difference."</p>
+                </div>
+            </div>
+            <div class="col-12  col-md-4 my-4">
+                <div class="bg-card-containery shadow  text-center pt-3 pb-4">
+                    <img src="./assets/images/alumin USA.jpg" class="imagey" >
+                    
+                    <h3 class="heading1y">USA Meet - 2023</h3>
+                    <p class="paragraph1y">"Connecting the dots of our past to create the masterpiece of our future."</p>
+                </div>
+                
+            </div>
+            
+            <div class="col-12  col-md-4 my-4">
+                <div class="bg-card-containery shadow text-center pt-3 pb-4">
+                    <img src="https://daijiworld.ap-south-1.linodeobjects.com/Linode/images3/Arun_281022_fmci1.jpg" class="imagey">
+                    <h3 class="heading1y">Hyderabad Meet - 2012</h3>
+                    <p class="paragraph1y">"As alumni, we carry the torch of knowledge, lighting the way for future generations."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    </div>  
+<!-- end -->
+
+<!--/footer-->
+<!--/footer-->
+<footer class="w3l-footer-22 ">
+  <div class="footer-sub py-5">
+    <div class="container1 ">
+      <div class="row sub-columns">
+        <div class="col-lg-4 col-md-6 sub-one-left ab-right-cont pr-lg-5 mb-md-0 mb-4">
+          <h3>About</h3>
+          <p>Sagi Rama Krishnam Raju Engineering College (SRKREC), established in 1980, is a self-financed academic institution of coeducation striving to provide a high quality technical education to engineering aspirants. Being one of the premier and well-established technical institutions of the country, it continues to render service to the nation and the world at large with its alumni holding highly prestigious positions and making substantial contribution.</p>
+          <div class="columns-2">
+            <ul class="social">
+              <li><a href="https://www.facebook.com/people/SRKR-CSE/61551537740203/" id="facebook"><span class="fab fa-facebook-f" aria-hidden="true"></span></a></li>
+              <!-- <li><a href="#linkedin"><span class="fab fa-linkedin-in" aria-hidden="true"></span></a></li> -->
+              <li><a href="https://www.instagram.com/srkr_cse/" id="instagram"><span class="fab fab fa-instagram" aria-hidden="true"></span></a></li>
+              <li><a href="https://www.youtube.com/@srkrcse212/" id="youtube"><span class="fab fab fa-youtube" aria-hidden="true"></span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 sub-two-right pl-lg-5">
+          <h3>Useful Links</h3>
+          <ul>
+            <li><a href="../index.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Home</a></li>
+            <!-- <li><a href="about.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;About</a></li> -->
+            <li><a href="../Placements/placement.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Placements</a></li>
+            <li><a href="../Govt/governingbody.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Governing Body</a></li>
+            <li><a href="../Contact/contact.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 sub-two-right pl-lg-5 mt-md-0 mt-4">
+          <h3>Academics</h3>
+          <ul>
+            <li><a href="../Syllabus/syllabus.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Syllabus</a></li>
+            <li><a href="../Timetable/time-table.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Timetables</a></li>
+            <li><a href="../Regulations/regulations.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Regulations</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 sub-two-right mt-md-0 mt-4">
+          <aside>
+            <h4>Contact Us</h4>
+<address>
+  <strong>Computer Science And Engineering</strong>
+  <br>
+  <span>(Since 1991)</span>
+  <br><br>
+  <span>Dr. V. Chandra Sekhar </span>
+  <br>
+  <span>Head of the department</span>
+  <br>
+  <!-- <abbr title="Telephone">Telephone:</abbr> +91 9440351652
+  <br> -->
+<span title="Telephone">Mobile:</span> +91 9440351652<br>
+  <span title="Email">Email:</span> <a href="#">dr.vcs@srkrec.ac.in</a>
+</address>
+</aside>
+        </div>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <a href="../Team/team.html"><p >WebDevelopment Team</p></a>
+          </div>
+        </div>
+      </div>
+      
+      <p>© 2023 SRKREC-CSE. All rights reserved. Design by <a href="https://srkrec.edu.in/" target="_blank">SRKREC</a></p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

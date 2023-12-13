@@ -1,0 +1,37 @@
+
+  .container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .carousel {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 3%;
+  }
+
+  p {
+    text-align: justify;
+    font-size:1.6 rem;
+  }
+
+
+  .under h2 {
+    color: #007bff;
+   
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .under p {
+    text-align: justify;
+  }
+  .footer-container {
+    
+    background-color:none; /* For example */
+  
+    /* Add more styles as needed */
+  }
+  

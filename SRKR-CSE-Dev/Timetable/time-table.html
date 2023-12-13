@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assests/images/favicon.png">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="assets/timetable.css">
+<link rel="stylesheet" href="../assets/navbar.css">
+<link rel="stylesheet" href="../assets/style.css">
+    <title>SRKR CSE</title>  
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a title="logo" class="navbar-brand" href="../index.html"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="../Faculty/faculty.html">Faculty</a></li>
+                    <li><a class="dropdown-item" href="../Ace/ace.html">Student Activities</a></li>
+                    <li><a class="dropdown-item" href="../Facilities/facilities.html">Facilities</a></li>
+                    <li><a class="dropdown-item" href="../Alumini/alumini.html">Alumini</a></li>
+                    <li><a class="dropdown-item" href="../Vision Mission/vismis.html">Vision & Mission</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Academic
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="../Syllabus/syllabus.html">Syllabus</a></li>
+                    <li><a class="dropdown-item" href="../Timetable/time-table.html">TimeTables</a></li>
+                    <li><a class="dropdown-item" href="../Regulations/regulations.html">Regulations</a></li>
+                    <li><a class="dropdown-item" href="../Calender/calender.html">Academic Calender</a></li>
+                    <li><a class="dropdown-item" href="http://www.srkrexams.in/Login.aspx">Results</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Administration
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item navlink" href="../Commitee/commiteebos.html">Committe & <br>Board of Studies</a></li>
+                    <li><a class="dropdown-item navlink" href="../Govt/governingbody.html">Governing Body</a></li>
+                    <li><a class="dropdown-item navlink" href="../Mous/Mous.html">MOUS</a></li>
+                    <li><a class="dropdown-item navlink" href="../Intake and Fee/intake&fee.html">Intake and Fee</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Accomplishments
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item navlink" href="../Achievements/achievements.html">Achivements</a></li>
+                    <li><a class="dropdown-item navlink" href="../Placements/placement.html">Placements</a></li>
+                    <li><a class="dropdown-item navlink" href="../Publications/publications.html">Publications</a></li>
+                    <li><a class="dropdown-item navlink" href="../Research/research.html">Research</a></li>
+                    <li><a class="dropdown-item navlink" href="../CSE Press/csepress.html">CSE @ Press</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+<!-- 1)Page must be Responsive -->
+<!-- 2)Don't Write Css code either in inline or internal 
+        please write your css in external file. -->
+<!-- 3)Name your html file as assignedwork.html and css file as assignedwork.css -->
+<!-- 4) Refer Srkr Website for the data. -->
+<!-- 5)Don't disturb the above and below code  -->
+<div class="time-table">
+  <h1 align="center">Time-Table</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                <label for="year-dropdown">Year:</label>
+                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="year-dropdown"
+                        onchange="handleDropdownChange()">
+                    <option value="">Select Year</option>
+                    <!-- <option value="1-1">1-1</option> -->
+                    <!-- <option value="1-2">1-2</option> -->
+                    <option value="2-1">2-1</option>
+                    <!-- <option value="2-2">2-2</option> -->
+                    <option value="3-1">3-1</option>
+                    <!-- <option value="3-2">3-2</option> -->
+                    <!-- <option value="4-1">4-1</option> -->
+                    <!-- <option value="4-2">4-2</option> -->
+                </select>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <label for="subject-dropdown">Section:</label>
+                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"
+                        id="subject-dropdown" onchange="handleDropdownChange()" disabled>
+                    <option value="">Select Subject</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div id="pdf-container" style="display: none;">
+      <embed id="pdf-embed" src="#"   type="application/pdf">
+        
+    </div>
+</div>
+
+
+<!-- write Your code here   -->
+
+<!-- end -->
+
+<!--/footer-->
+<!--/footer-->
+<footer class="w3l-footer-22 ">
+  <div class="footer-sub py-5">
+    <div class="container1 ">
+      <div class="row sub-columns">
+        <div class="col-lg-4 col-md-6 sub-one-left ab-right-cont pr-lg-5 mb-md-0 mb-4">
+          <h3>About</h3>
+          <p>Sagi Rama Krishnam Raju Engineering College (SRKREC), established in 1980, is a self-financed academic institution of coeducation striving to provide a high quality technical education to engineering aspirants. Being one of the premier and well-established technical institutions of the country, it continues to render service to the nation and the world at large with its alumni holding highly prestigious positions and making substantial contribution.</p>
+          <div class="columns-2">
+            <ul class="social">
+              <li><a href="https://www.facebook.com/people/SRKR-CSE/61551537740203/" id="facebook"><span class="fab fa-facebook-f" aria-hidden="true"></span></a></li>
+              <!-- <li><a href="#linkedin"><span class="fab fa-linkedin-in" aria-hidden="true"></span></a></li> -->
+              <li><a href="https://www.instagram.com/srkr_cse/" id="instagram"><span class="fab fab fa-instagram" aria-hidden="true"></span></a></li>
+              <li><a href="https://www.youtube.com/@srkrcse212/" id="youtube"><span class="fab fab fa-youtube" aria-hidden="true"></span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 sub-two-right pl-lg-5">
+          <h3>Useful Links</h3>
+          <ul>
+            <li><a href="../index.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Home</a></li>
+            <!-- <li><a href="about.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;About</a></li> -->
+            <li><a href="../Placements/placement.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Placements</a></li>
+            <li><a href="../Govt/governingbody.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Governing Body</a></li>
+            <li><a href="../Contact/contact.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 sub-two-right pl-lg-5 mt-md-0 mt-4">
+          <h3>Academics</h3>
+          <ul>
+            <li><a href="../Syllabus/syllabus.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Syllabus</a></li>
+            <li><a href="../Timetable/time-table.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Timetables</a></li>
+            <li><a href="../Regulations/regulations.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Regulations</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 sub-two-right mt-md-0 mt-4">
+          <aside>
+            <h4>Contact Us</h4>
+<address>
+  <strong>Computer Science And Engineering</strong>
+  <br>
+  <span>(Since 1991)</span>
+  <br><br>
+  <span>Dr. V. Chandra Sekhar </span>
+  <br>
+  <span>Head of the department</span>
+  <br>
+  <!-- <abbr title="Telephone">Telephone:</abbr> +91 9440351652
+  <br> -->
+<span title="Telephone">Mobile:</span> +91 9440351652<br>
+  <span title="Email">Email:</span> <a href="#">dr.vcs@srkrec.ac.in</a>
+</address>
+</aside>
+        </div>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <a href="../Team/team.html"><p >WebDevelopment Team</p></a>
+          </div>
+        </div>
+      </div>
+      
+      <p>© 2023 SRKREC-CSE. All rights reserved. Design by <a href="https://srkrec.edu.in/" target="_blank">SRKREC</a></p>
+    </div>
+  </div>
+</footer>
+  <script>
+    var subjectPaths = {
+      "1-1": {
+          "AIML - A":"#",
+          "AIML - B":"#",
+          "AIML - C":"#",
+          "AIML - D":"#",
+          "CSE - A":"#",
+          "CSE - B":"#",
+          "CSE - C":"#",
+          "CSE - D":"#",
+          "CSE - E":"#",
+          
+      },
+      "1-2": {
+        "AIML - A":"#",
+        "AIML - B":"#",
+        "AIML - C":"#",
+        "AIML - D":"#",
+        "CSE - A":"#",
+        "CSE - B":"#",
+        "CSE - C":"#",
+        "CSE - D":"#",
+        "CSE - E":"#",
+      },
+      "2-1": {
+        "AIML - A":"1fXI55ChTpLVyzvXetL0MLyTWYbO_y8WM",
+        "AIML - B":"14dcQw6lktcwxcqfQGyriPmpGZUqdjXN5",
+        "AIML - C":"1d3vpHFR4uDealRWWYoPw-P76srLGlO6U",
+        
+        "CSE - A":"1hnoKDEywXln6xGWJRrY09MOD3k7lqZ53",
+        "CSE - B":"1wymAlAOxfjkyx_YJ3yvFA68OhPdthp3G",
+        "CSE - C":"1fsi6b_PgWSFl69G-cMWZRkV2H0noxXzd",
+        "CSE - D":"1_ufGEvBgeJ0v6pqh5im8pnrUiP2zvFnf",
+        "CSE - E":"1-7yNnoFAtTBp1U8P6x5mJU2Wb3olyUtI",
+      },
+      "2-2":{
+        "AIML - A":"#",
+        "AIML - B":"#",
+        "AIML - C":"#",
+        "AIML - D":"#",
+        "CSE - A":"#",
+        "CSE - B":"#",
+        "CSE - C":"#",
+        "CSE - D":"#",
+        "CSE - E":"#",
+      },
+      "3-1":{
+        "AIML ":"1BcVE87GqoLSPmNbtIl7Kh5VlvEqs7FEq",
+        //"AIML - B":"#",
+        //"AIML - C":"#",
+        //"AIML - D":"#",
+        "CSE - A":"1iUn87-wMlsE6J30wiITYyo9oDgOxTIku",
+        "CSE - B":"1G2AQQLyIgdTZ61WfT_pyXCBLTLw2VPII",
+        "CSE - C":"1cSjde8YsUFGNhZV7z8Pj2yMLWEhUjXxh",
+        "CSE - D":"17l2xgBwyH5DUvdMSBIjWD8IYLhTr5dJD",
+        "CSE - E":"1HyHwOBZDgOS7JjoPlNAU7TfxtiVakqg2",
+      },
+      "3-2":{
+        "AIML - A":"#",
+        "AIML - B":"#",
+        "AIML - C":"#",
+        "AIML - D":"#",
+        "CSE - A":"#",
+        "CSE - B":"#",
+        "CSE - C":"#",
+        "CSE - D":"#",
+        "CSE - E":"#",
+      },
+      "4-1":{
+      
+        "AIML - A":"#",
+        "AIML - B":"#",
+        "AIML - C":"#",
+        "AIML - D":"#",
+        "CSE - A":"#",
+        "CSE - B":"#",
+        "CSE - C":"#",
+        "CSE - D":"#",
+        "CSE - E":"#",
+      },
+      "4-2":{
+        "Project Work (Project work, seminar and internship in industry)":"#",
+      },
+      // Add other years and their subjects with respective file IDs
+  };
+
+  function handleDropdownChange() {
+      var yearDropdown = document.getElementById("year-dropdown");
+      var subjectDropdown = document.getElementById("subject-dropdown");
+      var pdfContainer = document.getElementById("pdf-container");
+      var pdfEmbed = document.getElementById("pdf-embed");
+
+      var selectedYear = yearDropdown.value;
+      var selectedSubject = subjectDropdown.value;
+
+      var fileID = subjectPaths[selectedYear][selectedSubject];
+      var pdfLink = "https://drive.google.com/file/d/" + fileID + "/preview";
+      //
+  
+      //
+      
+      if (selectedYear !== "") {
+          subjectDropdown.disabled = false;
+          populateSubjectDropdown(selectedYear, selectedSubject);
+      } else {
+          subjectDropdown.disabled = true;
+          subjectDropdown.options.length = 1; // Reset subject dropdown options
+      }
+
+      if (fileID !== undefined) {
+          pdfContainer.style.display = "block";
+          pdfEmbed.src = pdfLink;
+      } else {
+          pdfContainer.style.display = "none";
+          pdfEmbed.src = "";
+      }
+  }
+
+  function populateSubjectDropdown(selectedYear, selectedSubject) {
+      var subjectDropdown = document.getElementById("subject-dropdown");
+
+      // Clear existing options
+      subjectDropdown.options.length = 1;
+
+      // Add subjects based on the selected year
+      var subjects = Object.keys(subjectPaths[selectedYear]);
+      for (var i = 0; i < subjects.length; i++) {
+          var option = document.createElement("option");
+          option.value = subjects[i];
+          option.text = subjects[i];
+          if (subjects[i] === selectedSubject) {
+              option.selected = true;
+          }
+          subjectDropdown.add(option);
+      }
+  }
+  </script>
+</body>
+</html>

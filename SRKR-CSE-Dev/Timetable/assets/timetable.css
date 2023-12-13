@@ -1,0 +1,56 @@
+ /* TimeTable */
+ .time-table {
+   height: 100vh;
+   margin-top: 100px;
+
+ }
+
+ label,
+ select {
+   display: inline-block;
+   margin-right: 10px;
+
+   border-radius: 25px;
+
+ }
+
+ #pdf-container {
+   width: 100%;
+
+   margin: auto;
+   /* margin-top: 0px; */
+
+ }
+
+ #pdf-embed {
+   width: 100%;
+   height: 100vh;
+   /*border: 2px solid #000;*/
+   /* margin: 10px; */
+   /* Add some space around the image to make it look better on smaller screens. You can adjust this value as needed depending on your design needs. */
+ }
+
+ /* Media query for max-width: 500px */
+ @media (max-width: 500px) {
+
+   label,
+   select {
+     display: inline-block;
+     /* Change the display to block to stack the label and select elements vertically */
+     margin-right: 0;
+     margin-bottom: 10px;
+   }
+
+   label {
+     margin-left: 10px;
+   }
+
+   #pdf-container {
+     margin-left: 0px;
+     /* Reset the left margin for the image container */
+     height: 100vh;
+   }
+
+ }
+
+ /* TimeTable End */
